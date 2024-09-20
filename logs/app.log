@@ -1,0 +1,1153 @@
+2024-09-20 14:58:11 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 14:58:12 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 14:58:12 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 14:58:21 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 14:58:22 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 14:58:22 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 14:58:22 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 14:58:22 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 14:58:30 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 14:58:30 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 14:58:31 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 14:58:33 ERROR TC005_DepositFundsUSDTest:51 - An error occurred: element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a7677295ec3e51674af907e2e5c8883, clickElement {id=f.67B048C85FC59EFCF47B1C63FA0D27D5.d.389E8CC2E774E3F1AB22A8C7F7177EBA.e.507}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53175/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9a7677295ec3e51674af907e2e5c8883)] -> xpath: //button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']]
+Session ID: 9a7677295ec3e51674af907e2e5c8883
+2024-09-20 14:58:33 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:00:24 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:00:24 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:00:24 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:00:30 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:00:31 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:00:31 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:00:31 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:00:31 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:00:39 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:00:40 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:00:40 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:00:42 ERROR TC005_DepositFundsUSDTest:51 - An error occurred: element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="tab-pane fade show active div-loader" id="PaymentGateway-tab-content" role="tabpanel" aria-labelledby="payment-tab-content">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ea368d566789fb5966b2ca01a50a508, clickElement {id=f.2966231985C991E0B1668A51E7A6B11E.d.F414DF0EE658C523CAD161A9600C0F6A.e.496}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53231/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1ea368d566789fb5966b2ca01a50a508)] -> xpath: //button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']]
+Session ID: 1ea368d566789fb5966b2ca01a50a508
+2024-09-20 15:00:43 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:02:35 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:02:36 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:02:36 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:02:43 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:02:43 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:02:43 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:02:43 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:02:43 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:02:50 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:02:50 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:02:51 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:02:56 INFO  TC005_DepositFundsUSDTest:38 - Selected bank account: Abdul(12345)
+2024-09-20 15:02:59 INFO  TC005_DepositFundsUSDTest:49 - Fund transfer successful.
+2024-09-20 15:03:01 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:07:11 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:07:11 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:07:11 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:07:20 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:07:21 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:07:21 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:07:21 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:07:21 INFO  TC005_DepositFundsUSDTest:20 - Login successful.
+2024-09-20 15:07:29 INFO  TC005_DepositFundsUSDTest:26 - Navigated to Deposit Funds page.
+2024-09-20 15:07:30 INFO  TC005_DepositFundsUSDTest:34 - Deposit amount entered: 1000
+2024-09-20 15:07:30 INFO  TC005_DepositFundsUSDTest:38 - Selected payment method: Wire Transfer
+2024-09-20 15:07:32 ERROR TC005_DepositFundsUSDTest:60 - An error occurred: element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfbed5a4d73b2e912b0cb37fc9ea0437, clickElement {id=f.3169B51D17ECEE99D5A4E97AB7B271C3.d.5DA9D863F6EBF4AA392C4F7F1F625806.e.508}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53421/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cfbed5a4d73b2e912b0cb37fc9ea0437)] -> xpath: //button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']]
+Session ID: cfbed5a4d73b2e912b0cb37fc9ea0437
+2024-09-20 15:07:33 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:08:06 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:08:07 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:08:07 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:08:15 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:08:16 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:08:16 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:08:16 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:08:16 INFO  TC005_DepositFundsUSDTest:20 - Login successful.
+2024-09-20 15:08:23 INFO  TC005_DepositFundsUSDTest:26 - Navigated to Deposit Funds page.
+2024-09-20 15:08:23 INFO  TC005_DepositFundsUSDTest:34 - Deposit amount entered: 1000
+2024-09-20 15:08:24 INFO  TC005_DepositFundsUSDTest:38 - Selected payment method: Wire Transfer
+2024-09-20 15:08:26 ERROR TC005_DepositFundsUSDTest:60 - An error occurred: element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d1230da0c8e06f7a2e4582281d3dc7c, clickElement {id=f.0556D0B3378E10620FB33CC21E94E46C.d.BC27F05275F42B3A1F0EAE3D994051FA.e.500}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53450/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9d1230da0c8e06f7a2e4582281d3dc7c)] -> xpath: //button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']]
+Session ID: 9d1230da0c8e06f7a2e4582281d3dc7c
+2024-09-20 15:08:27 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:10:45 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:10:46 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:10:46 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:10:55 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:10:56 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:10:56 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:10:56 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:10:56 INFO  TC005_DepositFundsUSDTest:20 - Login successful.
+2024-09-20 15:11:03 INFO  TC005_DepositFundsUSDTest:26 - Navigated to Deposit Funds page.
+2024-09-20 15:11:03 INFO  TC005_DepositFundsUSDTest:34 - Deposit amount entered: 1000
+2024-09-20 15:11:04 INFO  TC005_DepositFundsUSDTest:38 - Selected payment method: Wire Transfer
+2024-09-20 15:11:05 ERROR TC005_DepositFundsUSDTest:60 - An error occurred: element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b46a1e760a68d75686f71adcc1861fac, clickElement {id=f.A1E6462868D50D6432680B6AE5227D7F.d.6D0928A9ADAD9A62BD441C7D42A7D3E8.e.501}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53535}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53535/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b46a1e760a68d75686f71adcc1861fac)] -> xpath: (//span[@class='filter-option pull-left' and text()='Select'])[1]]
+Session ID: b46a1e760a68d75686f71adcc1861fac
+2024-09-20 15:11:06 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:12:19 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:12:20 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:12:20 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:12:26 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:12:27 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:12:27 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:12:27 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:12:27 INFO  TC005_DepositFundsUSDTest:20 - Login successful.
+2024-09-20 15:12:34 INFO  TC005_DepositFundsUSDTest:26 - Navigated to Deposit Funds page.
+2024-09-20 15:12:35 INFO  TC005_DepositFundsUSDTest:34 - Deposit amount entered: 1000
+2024-09-20 15:12:35 INFO  TC005_DepositFundsUSDTest:38 - Selected payment method: Wire Transfer
+2024-09-20 15:12:35 ERROR TC005_DepositFundsUSDTest:60 - An error occurred: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //span[@class='filter-option pull-left' and text()='Select'])[1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class='filter-option pull-left' and text()='Select'])[1]' is not a valid XPath expression."}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [add0b9ca316d8082981d6014c3c97153, findElement {value=//span[@class='filter-option pull-left' and text()='Select'])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53616/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: add0b9ca316d8082981d6014c3c97153
+2024-09-20 15:12:36 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:13:40 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:13:41 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:13:41 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:13:49 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:13:49 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:13:50 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:13:50 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:13:50 INFO  TC005_DepositFundsUSDTest:20 - Login successful.
+2024-09-20 15:13:58 INFO  TC005_DepositFundsUSDTest:26 - Navigated to Deposit Funds page.
+2024-09-20 15:13:58 INFO  TC005_DepositFundsUSDTest:34 - Deposit amount entered: 1000
+2024-09-20 15:13:59 INFO  TC005_DepositFundsUSDTest:38 - Selected payment method: Wire Transfer
+2024-09-20 15:13:59 ERROR TC005_DepositFundsUSDTest:60 - An error occurred: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //span[@class='filter-option pull-left' and text()='Select'])[1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[@class='filter-option pull-left' and text()='Select'])[1]' is not a valid XPath expression."}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f5d595596e73a7788569886fb5bc0eb, findElement {using=xpath, value=//span[@class='filter-option pull-left' and text()='Select'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53698}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53698/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f5d595596e73a7788569886fb5bc0eb
+2024-09-20 15:13:59 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:17:33 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:17:34 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:17:34 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:17:41 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:17:41 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:17:42 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:17:42 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:17:42 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:17:49 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:17:49 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:17:50 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:17:51 ERROR TC005_DepositFundsUSDTest:52 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (2ebf6d05148e72a1651a69790895019c)] -> xpath: (//span[@class='filter-option pull-left' and text()='Select'])[1]] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ebf6d05148e72a1651a69790895019c, clickElement {id=f.1AB228ADCA4F292DBE3ABA2FD9D55D7D.d.1364712E0A835A19CF925A775EB158D8.e.514}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53860/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ebf6d05148e72a1651a69790895019c)] -> xpath: (//span[@class='filter-option pull-left' and text()='Select'])[1]]
+Session ID: 2ebf6d05148e72a1651a69790895019c
+2024-09-20 15:17:52 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:21:41 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:21:41 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:21:41 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:21:48 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:21:49 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:21:49 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:21:49 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:21:49 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:21:56 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:21:56 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:21:57 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:21:59 ERROR TC005_DepositFundsUSDTest:52 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (58cde44017136d1c748c5483b8e3ec20)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58cde44017136d1c748c5483b8e3ec20, clickElement {id=f.1504C17D6459952D40142DD018145C8F.d.4922D009E751226A74592E3BF99D2EBC.e.511}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53987/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (58cde44017136d1c748c5483b8e3ec20)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 58cde44017136d1c748c5483b8e3ec20
+2024-09-20 15:21:59 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:24:15 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:24:16 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:24:16 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:24:25 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:24:26 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:24:26 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:24:26 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:24:26 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:24:33 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:24:34 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:24:34 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:24:36 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (ef45d7548adba5da0b8005ff8464e808)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 633). Other element would receive the click: <div class="col-xl-5 col-md-6 col-lg-6 col-sm-6 pr-md-0 bankTransferView">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ef45d7548adba5da0b8005ff8464e808, clickElement {id=f.64D356A6B03328ECAC5F68EF65E415F8.d.E7174FF4393EB5C5E1F94D63866A33B4.e.504}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54029/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ef45d7548adba5da0b8005ff8464e808)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: ef45d7548adba5da0b8005ff8464e808
+2024-09-20 15:24:37 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:26:39 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:26:40 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:26:40 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:26:47 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:26:47 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:26:48 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:26:48 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:26:48 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:26:56 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:26:57 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:26:57 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:26:59 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (7ff2bd2d886db2e9b41b4a72b7e9d73f)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ff2bd2d886db2e9b41b4a72b7e9d73f, clickElement {id=f.3B0DD837AB833EC627F959CFF799FAD0.d.0D77922E733F54C9A206CF88DC929C6F.e.506}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54112/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7ff2bd2d886db2e9b41b4a72b7e9d73f)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 7ff2bd2d886db2e9b41b4a72b7e9d73f
+2024-09-20 15:27:00 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:28:46 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:28:46 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:28:46 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:28:55 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:28:56 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:28:56 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:28:56 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:28:56 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:29:04 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:29:04 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:29:05 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:29:07 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (c356f07b305a9eb3333f1bc43dbe9923)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c356f07b305a9eb3333f1bc43dbe9923, clickElement {id=f.ECDDBEDF1AADDE89E09ECBF47D018FCC.d.78EFD8A24F55E1900CAE23974062E47B.e.458}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54159/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c356f07b305a9eb3333f1bc43dbe9923)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: c356f07b305a9eb3333f1bc43dbe9923
+2024-09-20 15:29:09 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:40:46 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:40:46 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:40:46 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:40:56 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:40:56 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:40:57 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:40:57 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:40:57 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:41:04 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:41:05 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:41:05 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:41:10 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (89a4e13480baa3a277b2e89db274eff0)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [89a4e13480baa3a277b2e89db274eff0, clickElement {id=f.FDC6EA55B25BAFC7B6BF1BFD8979FCA9.d.0748BCA9DA707381562F5469E77EB8CA.e.501}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54681}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54681/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (89a4e13480baa3a277b2e89db274eff0)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 89a4e13480baa3a277b2e89db274eff0
+2024-09-20 15:41:10 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:43:50 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:43:50 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:43:50 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:43:58 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:43:58 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:43:58 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:43:59 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:43:59 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:44:05 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:44:06 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:44:06 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:44:10 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (b6c88276277fcf34d312c58a35f71d58)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <td style="padding: 10px; border-bottom: 2px solid rgba(243, 243, 243, 1); border-right: 5px solid rgba(255, 255, 255, 1); text-align: center">...</td>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6c88276277fcf34d312c58a35f71d58, clickElement {id=f.8D62716376874DDC393368974AB2C356.d.6755B12360747D9DF85491AE34A3793B.e.470}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54809/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b6c88276277fcf34d312c58a35f71d58)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: b6c88276277fcf34d312c58a35f71d58
+2024-09-20 15:44:11 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:46:24 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:46:25 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:46:25 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:46:32 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:46:32 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:46:32 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:46:32 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:46:32 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:46:39 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:46:40 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:46:41 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:46:45 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (2ece2c1429f873019944597a3aebc269)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ece2c1429f873019944597a3aebc269, clickElement {id=f.7D19A517F790888E0D09097BAFB298BD.d.8FFF40CEAA2B6C646D14E8935753DD38.e.504}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54919/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2ece2c1429f873019944597a3aebc269)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 2ece2c1429f873019944597a3aebc269
+2024-09-20 15:46:46 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:47:23 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:47:23 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:47:23 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:47:45 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:47:46 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:47:46 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:47:54 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:47:55 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:47:55 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:47:55 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:47:55 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:48:02 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:48:03 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:48:03 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:48:08 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (7646c633411b9d7b5be89ad45ad5bca6)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7646c633411b9d7b5be89ad45ad5bca6, clickElement {id=f.9EBB8276F218C1B65DCD4FAB9308BC8E.d.418D231A5E4B312B8A5929134F3770C1.e.458}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55005/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7646c633411b9d7b5be89ad45ad5bca6)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 7646c633411b9d7b5be89ad45ad5bca6
+2024-09-20 15:48:09 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\AbdulSiyamwala\AppData\Local\Temp\testng-eclipse--1438968921\testng-customsuite.xml
+
+2024-09-20 15:48:47 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@1f2d2181: 122 ms
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@5bbbdd4b: 33 ms
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@1e8823d2: 27 ms
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@51671b08: 15 ms
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3c49fab6: 16 ms
+2024-09-20 15:48:47 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@515f4131: 0 ms
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:31 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\AbdulSiyamwala\AppData\Local\Temp\testng-eclipse-1311338811\testng-customsuite.xml
+
+2024-09-20 15:54:32 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3fcdcf: 196 ms
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@4fdf8f12: 27 ms
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@130a0f66: 25 ms
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@b09fac1: 34 ms
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@74518890: 15 ms
+2024-09-20 15:54:32 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4c5204af: 1 ms
+2024-09-20 15:57:20 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 15:57:21 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 15:57:21 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 15:57:28 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 15:57:29 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 15:57:29 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 15:57:29 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 15:57:29 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 15:57:36 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 15:57:36 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 15:57:37 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 15:57:41 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (1057138d7b0c0983663e5e64dbc0410b)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1057138d7b0c0983663e5e64dbc0410b, clickElement {id=f.5209CCCEB5D79D640B9D52D731DBB1D6.d.96389ADEBF08048A620ADFB3C83E4A86.e.485}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55374/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1057138d7b0c0983663e5e64dbc0410b)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 1057138d7b0c0983663e5e64dbc0410b
+2024-09-20 15:57:42 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:02:39 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:02:39 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:02:39 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:02:49 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:02:50 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:02:50 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:02:50 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:02:50 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:02:57 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:02:57 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:02:58 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:03:03 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (84293fe557a4517183e0e92e6b3cb2c1)] -> css selector: button[data-id='BankAccountId'] > span.filter-option] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 435). Other element would receive the click: <li style="padding-bottom: 6px">...</li>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84293fe557a4517183e0e92e6b3cb2c1, clickElement {id=f.A074D08EAA3E008C5AE10B563DD81253.d.0DA3C44D222C64005E2E521B5384BB84.e.496}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55575/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84293fe557a4517183e0e92e6b3cb2c1)] -> css selector: button[data-id='BankAccountId'] > span.filter-option]
+Session ID: 84293fe557a4517183e0e92e6b3cb2c1
+2024-09-20 16:03:03 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:04:09 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:04:10 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:04:10 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:04:17 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:04:18 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:04:18 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:04:18 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:04:18 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:04:35 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:04:35 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:04:36 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:04:40 ERROR TC005_DepositFundsUSDTest:53 - An error occurred: Unable to click on element: [[ChromeDriver: chrome on windows (83a9920a906805c4a9db07ca7abeef02)] -> xpath: //button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']] due to element click intercepted: Element <span class="filter-option pull-left">...</span> is not clickable at point (1237, 583). Other element would receive the click: <a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="true">...</a>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83a9920a906805c4a9db07ca7abeef02, clickElement {id=f.DE4AC45401982A0534E3DA8C4A609934.d.72F616B219A9FE542F5104B3E4B1D388.e.511}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55645/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (83a9920a906805c4a9db07ca7abeef02)] -> xpath: //button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']]
+Session ID: 83a9920a906805c4a9db07ca7abeef02
+2024-09-20 16:04:41 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:15:29 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:15:30 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:15:30 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:15:38 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:15:39 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:15:39 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:15:39 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:15:39 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:15:47 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:15:47 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:15:48 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:16:58 ERROR TC005_DepositFundsUSDTest:54 - An error occurred: Unable to click on element: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='text'][normalize-space()='Abdul(12345)']' due to no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='text'][normalize-space()='Abdul(12345)']"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26fbad35567fd48fb547dcf4834ae2af, findElement {using=xpath, value=//span[@class='text'][normalize-space()='Abdul(12345)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55936}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55936/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26fbad35567fd48fb547dcf4834ae2af
+2024-09-20 16:16:58 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:17:37 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:17:38 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:17:38 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:17:44 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:17:45 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:17:45 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:17:45 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:17:45 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:17:52 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:17:53 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:17:53 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:18:12 ERROR TC005_DepositFundsUSDTest:54 - An error occurred: Error communicating with the remote browser. It may have died.
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [320433408165d3df825bbf273a889b67, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56079}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56079/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 320433408165d3df825bbf273a889b67
+2024-09-20 16:18:12 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:18:51 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:18:52 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:18:52 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:18:59 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:19:00 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:19:00 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:19:00 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:19:00 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:19:07 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:19:08 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:19:08 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:19:09 INFO  TC005_DepositFundsUSDTest:39 - Selected bank account: Abdul(12345)
+2024-09-20 16:19:13 INFO  TC005_DepositFundsUSDTest:50 - Fund transfer successful.
+2024-09-20 16:19:14 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:19:58 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:19:58 INFO  TC001_ValidLoginTest:46 - Logger initialized for testCases.TC001_ValidLoginTest
+2024-09-20 16:19:58 INFO  TC001_ValidLoginTest:50 - Faker instance initialized
+2024-09-20 16:20:06 INFO  TC001_ValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:20:06 INFO  TC001_ValidLoginTest:13 - *** Starting TC001_ValidLoginTest ***
+2024-09-20 16:20:06 INFO  TC001_ValidLoginTest:19 - Entered username
+2024-09-20 16:20:07 INFO  TC001_ValidLoginTest:22 - Entered password
+2024-09-20 16:20:07 INFO  TC001_ValidLoginTest:25 - Clicked on Sign-In button
+2024-09-20 16:20:10 INFO  TC001_ValidLoginTest:29 - Dashboard heading text is correct.
+2024-09-20 16:20:10 INFO  TC001_ValidLoginTest:35 - *** Finished TC001_ValidLoginTest ***
+2024-09-20 16:20:10 INFO  TC001_ValidLoginTest:80 - WebDriver session ended
+2024-09-20 16:20:10 INFO  TC002_InValidLoginTest:46 - Logger initialized for testCases.TC002_InValidLoginTest
+2024-09-20 16:20:10 INFO  TC002_InValidLoginTest:50 - Faker instance initialized
+2024-09-20 16:20:16 INFO  TC002_InValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:20:16 INFO  TC002_InValidLoginTest:12 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 16:20:17 INFO  TC002_InValidLoginTest:17 - Entered username
+2024-09-20 16:20:17 INFO  TC002_InValidLoginTest:20 - Entered password
+2024-09-20 16:20:17 INFO  TC002_InValidLoginTest:23 - Clicked on Sign-In button
+2024-09-20 16:20:17 INFO  TC002_InValidLoginTest:27 - Error message is displayed as expected for invalid credentials.
+2024-09-20 16:20:23 INFO  TC002_InValidLoginTest:34 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 16:20:24 INFO  TC002_InValidLoginTest:80 - WebDriver session ended
+2024-09-20 16:20:24 INFO  TC003_AccountRegistrationTest:46 - Logger initialized for testCases.TC003_AccountRegistrationTest
+2024-09-20 16:20:24 INFO  TC003_AccountRegistrationTest:50 - Faker instance initialized
+2024-09-20 16:20:30 INFO  TC003_AccountRegistrationTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:20:30 INFO  TC003_AccountRegistrationTest:15 - *** Starting TC003_AccountRegistrationTest ***
+2024-09-20 16:20:32 INFO  TC003_AccountRegistrationTest:21 - Clicked on Sign-Up button
+2024-09-20 16:20:33 INFO  TC003_AccountRegistrationTest:25 - Entered username
+2024-09-20 16:20:33 INFO  TC003_AccountRegistrationTest:28 - Entered first name
+2024-09-20 16:20:34 INFO  TC003_AccountRegistrationTest:31 - Entered last name
+2024-09-20 16:20:34 INFO  TC003_AccountRegistrationTest:35 - Entered email address
+2024-09-20 16:20:35 INFO  TC003_AccountRegistrationTest:38 - Entered confirm email address
+2024-09-20 16:20:35 INFO  TC003_AccountRegistrationTest:41 - Entered password.
+2024-09-20 16:20:35 INFO  TC003_AccountRegistrationTest:44 - Entered phone number
+2024-09-20 16:20:36 INFO  TC003_AccountRegistrationTest:47 - Clicked on Sign-Up button
+2024-09-20 16:20:39 INFO  TC003_AccountRegistrationTest:57 - *** Finished TC003_AccountRegistrationTest ***
+2024-09-20 16:20:39 INFO  TC003_AccountRegistrationTest:80 - WebDriver session ended
+2024-09-20 16:20:39 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 16:20:39 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 16:20:45 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:20:45 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 16:20:46 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 16:20:46 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 16:20:47 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 16:20:47 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 16:20:49 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 16:20:51 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 16:20:52 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 16:20:52 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: hzdme
+2024-09-20 16:20:53 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 16:20:54 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 16:20:54 INFO  TC004_CreateMT4AccountTest:48 - Clicked 'I Confirm' checkbox.
+2024-09-20 16:20:54 INFO  TC004_CreateMT4AccountTest:52 - Clicked on Create Account button.
+2024-09-20 16:21:02 INFO  TC004_CreateMT4AccountTest:56 - MT4 Account created with number: 1245991482
+2024-09-20 16:21:06 ERROR TC004_CreateMT4AccountTest:66 - An error occurred while creating the MT4 account: 
+java.lang.RuntimeException: Unable to click on element: [[ChromeDriver: chrome on windows (7ca0d3897f682e6b72d9973efe00f969)] -> xpath: (//i[@class='fas fa-times' and @data-dismiss='modal'])[1]] due to element click intercepted: Element <i class="fas fa-times" data-dismiss="modal"></i> is not clickable at point (1184, 65). Other element would receive the click: <i class="fas fa-times" data-dismiss="modal"></i>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7ca0d3897f682e6b72d9973efe00f969, clickElement {id=f.36664F04CE903DC72062702969ED09CE.d.3C5D1EA707D55F7F32288F57CB1D0284.e.375}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56227/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7ca0d3897f682e6b72d9973efe00f969)] -> xpath: (//i[@class='fas fa-times' and @data-dismiss='modal'])[1]]
+Session ID: 7ca0d3897f682e6b72d9973efe00f969
+	at pageObjects.BasePage.waitAndClick(BasePage.java:57) ~[test-classes/:?]
+	at pageObjects.CP.MyAccounts_CreateAccountMT4.clickDismissModal(MyAccounts_CreateAccountMT4.java:108) ~[test-classes/:?]
+	at testCases.TC004_CreateMT4AccountTest.createMT4_Account(TC004_CreateMT4AccountTest.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-09-20 16:21:07 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 16:21:07 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:21:07 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:21:13 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:21:14 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:21:14 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:21:14 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:21:14 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:21:21 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:21:22 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:21:22 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:21:23 INFO  TC005_DepositFundsUSDTest:39 - Selected bank account: Abdul(12345)
+2024-09-20 16:21:29 INFO  TC005_DepositFundsUSDTest:50 - Fund transfer successful.
+2024-09-20 16:21:29 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:21:29 INFO  TC015_CreatePublicStrategy:46 - Logger initialized for testCases.TC015_CreatePublicStrategy
+2024-09-20 16:21:29 INFO  TC015_CreatePublicStrategy:50 - Faker instance initialized
+2024-09-20 16:21:35 INFO  TC015_CreatePublicStrategy:73 - WebDriver initialized and application URL opened
+2024-09-20 16:21:35 INFO  TC015_CreatePublicStrategy:13 - *** Starting TC005_CreatePublicStrategy ***
+2024-09-20 16:21:36 INFO  TC015_CreatePublicStrategy:89 - Entered username
+2024-09-20 16:21:36 INFO  TC015_CreatePublicStrategy:92 - Entered password
+2024-09-20 16:21:36 INFO  TC015_CreatePublicStrategy:95 - Clicked on Sign-In button
+2024-09-20 16:21:36 INFO  TC015_CreatePublicStrategy:18 - Login successful.
+2024-09-20 16:21:39 INFO  TC015_CreatePublicStrategy:22 - Clicked on Managed Accounts menu.
+2024-09-20 16:21:42 INFO  TC015_CreatePublicStrategy:25 - Clicked on Published Strategies sub-menu.
+2024-09-20 16:21:42 INFO  TC015_CreatePublicStrategy:30 - Clicked on Add button.
+2024-09-20 16:21:44 INFO  TC015_CreatePublicStrategy:38 - Entered strategy name: yh4vs2a Strategy
+2024-09-20 16:21:44 INFO  TC015_CreatePublicStrategy:42 - Entered publisher name: Major McCullough
+2024-09-20 16:21:45 INFO  TC015_CreatePublicStrategy:45 - Entered strategy description: Aspernatur reprehenderit voluptatem sed impedit.
+2024-09-20 16:21:45 INFO  TC015_CreatePublicStrategy:48 - Set performance fee to 10 for MonthEnd.
+2024-09-20 16:21:46 INFO  TC015_CreatePublicStrategy:51 - Clicked on Send Request button.
+2024-09-20 16:21:51 INFO  TC015_CreatePublicStrategy:57 - Fetched list of strategy names.
+2024-09-20 16:21:51 INFO  TC015_CreatePublicStrategy:63 - Strategy name found in the list, test passed.
+2024-09-20 16:21:51 INFO  TC015_CreatePublicStrategy:70 - *** Finished TC005_CreatePublicStrategy ***
+2024-09-20 16:21:52 INFO  TC015_CreatePublicStrategy:80 - WebDriver session ended
+2024-09-20 16:23:34 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\test-output\testng-failed.xml
+
+2024-09-20 16:23:34 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 16:23:34 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 16:23:41 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:23:41 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 16:23:41 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 16:23:42 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 16:23:42 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 16:23:42 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 16:23:45 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 16:23:49 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 16:23:50 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 16:23:50 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: zwzkz
+2024-09-20 16:23:52 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 16:23:52 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 16:23:56 ERROR TC004_CreateMT4AccountTest:66 - An error occurred while creating the MT4 account: 
+java.lang.RuntimeException: Unable to click on element: [[ChromeDriver: chrome on windows (9a5cfaaccc454e5c4bbd79270a107610)] -> xpath: //div[input[@id='chkConfirmAccount']]//label[@for='chkConfirmAccount']] due to element click intercepted: Element <label class="custom-control-label" for="chkConfirmAccount" data-resourcekey="TXT_confirm_personal_advise">...</label> is not clickable at point (501, 485). Other element would receive the click: <div class="modal Notification-Popup welcome-message fade modal-sm-theme show" id="NotificationPopup" style="padding-right: 7px; display: block;">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a5cfaaccc454e5c4bbd79270a107610, clickElement {id=f.3AA6B050E399D895BF179A5513B4B285.d.93C3C95C716763C6E06130E2CAD1EB8C.e.321}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56334/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9a5cfaaccc454e5c4bbd79270a107610)] -> xpath: //div[input[@id='chkConfirmAccount']]//label[@for='chkConfirmAccount']]
+Session ID: 9a5cfaaccc454e5c4bbd79270a107610
+	at pageObjects.BasePage.waitAndClick(BasePage.java:57) ~[test-classes/:?]
+	at pageObjects.CP.MyAccounts_CreateAccountMT4.clickIConfirm(MyAccounts_CreateAccountMT4.java:91) ~[test-classes/:?]
+	at testCases.TC004_CreateMT4AccountTest.createMT4_Account(TC004_CreateMT4AccountTest.java:47) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-09-20 16:23:57 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 16:26:08 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\test-output\testng-failed.xml
+
+2024-09-20 16:26:09 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 16:26:09 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 16:26:15 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:26:15 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 16:26:16 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 16:26:16 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 16:26:16 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 16:26:16 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 16:26:19 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 16:26:21 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 16:26:22 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 16:26:22 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: vzukr
+2024-09-20 16:26:23 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 16:26:24 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 16:26:24 INFO  TC004_CreateMT4AccountTest:48 - Clicked 'I Confirm' checkbox.
+2024-09-20 16:26:24 INFO  TC004_CreateMT4AccountTest:52 - Clicked on Create Account button.
+2024-09-20 16:26:34 ERROR TC004_CreateMT4AccountTest:66 - An error occurred while creating the MT4 account: 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (49634a839bbd52d33a8fb8246fd8f871)] -> xpath: (//li[@data-resourcekey='TXT_MetaTrader_Login']//span[@class='login'])[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265) ~[selenium-support-4.23.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.23.1.jar:?]
+	at pageObjects.BasePage.waitForVisibility(BasePage.java:39) ~[test-classes/:?]
+	at pageObjects.CP.MyAccounts_CreateAccountMT4.getMT4AccountNumber(MyAccounts_CreateAccountMT4.java:101) ~[test-classes/:?]
+	at testCases.TC004_CreateMT4AccountTest.createMT4_Account(TC004_CreateMT4AccountTest.java:55) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-09-20 16:26:35 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 16:27:43 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\test-output\testng-failed.xml
+
+2024-09-20 16:27:44 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 16:27:44 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 16:27:52 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:27:52 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 16:27:52 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 16:27:52 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 16:27:53 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 16:27:53 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 16:27:56 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 16:27:59 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 16:27:59 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 16:28:00 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: wkljg
+2024-09-20 16:28:01 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 16:28:02 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 16:28:02 INFO  TC004_CreateMT4AccountTest:48 - Clicked 'I Confirm' checkbox.
+2024-09-20 16:28:02 INFO  TC004_CreateMT4AccountTest:52 - Clicked on Create Account button.
+2024-09-20 16:28:08 INFO  TC004_CreateMT4AccountTest:56 - MT4 Account created with number: 1245991488
+2024-09-20 16:28:08 INFO  TC004_CreateMT4AccountTest:60 - Dismissed the account creation modal.
+2024-09-20 16:28:08 INFO  TC004_CreateMT4AccountTest:70 - *** Finished TC004_CreateMT4AccountTest ***
+2024-09-20 16:28:10 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 16:28:38 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 16:28:39 INFO  TC001_ValidLoginTest:46 - Logger initialized for testCases.TC001_ValidLoginTest
+2024-09-20 16:28:39 INFO  TC001_ValidLoginTest:50 - Faker instance initialized
+2024-09-20 16:28:46 INFO  TC001_ValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:28:46 INFO  TC001_ValidLoginTest:13 - *** Starting TC001_ValidLoginTest ***
+2024-09-20 16:28:46 INFO  TC001_ValidLoginTest:19 - Entered username
+2024-09-20 16:28:47 INFO  TC001_ValidLoginTest:22 - Entered password
+2024-09-20 16:28:47 INFO  TC001_ValidLoginTest:25 - Clicked on Sign-In button
+2024-09-20 16:28:50 INFO  TC001_ValidLoginTest:29 - Dashboard heading text is correct.
+2024-09-20 16:28:50 INFO  TC001_ValidLoginTest:35 - *** Finished TC001_ValidLoginTest ***
+2024-09-20 16:28:50 INFO  TC001_ValidLoginTest:80 - WebDriver session ended
+2024-09-20 16:28:50 INFO  TC002_InValidLoginTest:46 - Logger initialized for testCases.TC002_InValidLoginTest
+2024-09-20 16:28:50 INFO  TC002_InValidLoginTest:50 - Faker instance initialized
+2024-09-20 16:28:56 INFO  TC002_InValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:28:56 INFO  TC002_InValidLoginTest:12 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 16:28:57 INFO  TC002_InValidLoginTest:17 - Entered username
+2024-09-20 16:28:57 INFO  TC002_InValidLoginTest:20 - Entered password
+2024-09-20 16:28:57 INFO  TC002_InValidLoginTest:23 - Clicked on Sign-In button
+2024-09-20 16:28:58 INFO  TC002_InValidLoginTest:27 - Error message is displayed as expected for invalid credentials.
+2024-09-20 16:29:04 INFO  TC002_InValidLoginTest:34 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 16:29:06 INFO  TC002_InValidLoginTest:80 - WebDriver session ended
+2024-09-20 16:29:06 INFO  TC003_AccountRegistrationTest:46 - Logger initialized for testCases.TC003_AccountRegistrationTest
+2024-09-20 16:29:06 INFO  TC003_AccountRegistrationTest:50 - Faker instance initialized
+2024-09-20 16:29:17 INFO  TC003_AccountRegistrationTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:29:17 INFO  TC003_AccountRegistrationTest:15 - *** Starting TC003_AccountRegistrationTest ***
+2024-09-20 16:29:19 INFO  TC003_AccountRegistrationTest:21 - Clicked on Sign-Up button
+2024-09-20 16:29:20 INFO  TC003_AccountRegistrationTest:25 - Entered username
+2024-09-20 16:29:20 INFO  TC003_AccountRegistrationTest:28 - Entered first name
+2024-09-20 16:29:20 INFO  TC003_AccountRegistrationTest:31 - Entered last name
+2024-09-20 16:29:21 INFO  TC003_AccountRegistrationTest:35 - Entered email address
+2024-09-20 16:29:21 INFO  TC003_AccountRegistrationTest:38 - Entered confirm email address
+2024-09-20 16:29:21 INFO  TC003_AccountRegistrationTest:41 - Entered password.
+2024-09-20 16:29:22 INFO  TC003_AccountRegistrationTest:44 - Entered phone number
+2024-09-20 16:29:22 INFO  TC003_AccountRegistrationTest:47 - Clicked on Sign-Up button
+2024-09-20 16:29:25 INFO  TC003_AccountRegistrationTest:57 - *** Finished TC003_AccountRegistrationTest ***
+2024-09-20 16:29:25 INFO  TC003_AccountRegistrationTest:80 - WebDriver session ended
+2024-09-20 16:29:25 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 16:29:25 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 16:29:31 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:29:31 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 16:29:32 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 16:29:32 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 16:29:32 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 16:29:32 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 16:29:35 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 16:29:37 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 16:29:38 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 16:29:39 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: cgekn
+2024-09-20 16:29:40 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 16:29:40 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 16:29:40 INFO  TC004_CreateMT4AccountTest:48 - Clicked 'I Confirm' checkbox.
+2024-09-20 16:29:41 INFO  TC004_CreateMT4AccountTest:52 - Clicked on Create Account button.
+2024-09-20 16:29:47 INFO  TC004_CreateMT4AccountTest:56 - MT4 Account created with number: 1245991490
+2024-09-20 16:29:47 INFO  TC004_CreateMT4AccountTest:60 - Dismissed the account creation modal.
+2024-09-20 16:29:47 INFO  TC004_CreateMT4AccountTest:70 - *** Finished TC004_CreateMT4AccountTest ***
+2024-09-20 16:29:48 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 16:29:48 INFO  TC005_DepositFundsUSDTest:46 - Logger initialized for testCases.TC005_DepositFundsUSDTest
+2024-09-20 16:29:48 INFO  TC005_DepositFundsUSDTest:50 - Faker instance initialized
+2024-09-20 16:29:55 INFO  TC005_DepositFundsUSDTest:73 - WebDriver initialized and application URL opened
+2024-09-20 16:29:56 INFO  TC005_DepositFundsUSDTest:89 - Entered username
+2024-09-20 16:29:56 INFO  TC005_DepositFundsUSDTest:92 - Entered password
+2024-09-20 16:29:56 INFO  TC005_DepositFundsUSDTest:95 - Clicked on Sign-In button
+2024-09-20 16:29:56 INFO  TC005_DepositFundsUSDTest:15 - Login successful.
+2024-09-20 16:30:04 INFO  TC005_DepositFundsUSDTest:21 - Navigated to Deposit Funds page.
+2024-09-20 16:30:04 INFO  TC005_DepositFundsUSDTest:29 - Deposit amount entered: 1000
+2024-09-20 16:30:05 INFO  TC005_DepositFundsUSDTest:33 - Selected payment method: Wire Transfer
+2024-09-20 16:30:06 INFO  TC005_DepositFundsUSDTest:39 - Selected bank account: Abdul(12345)
+2024-09-20 16:30:10 INFO  TC005_DepositFundsUSDTest:50 - Fund transfer successful.
+2024-09-20 16:30:10 INFO  TC005_DepositFundsUSDTest:80 - WebDriver session ended
+2024-09-20 16:30:10 INFO  TC015_CreatePublicStrategy:46 - Logger initialized for testCases.TC015_CreatePublicStrategy
+2024-09-20 16:30:10 INFO  TC015_CreatePublicStrategy:50 - Faker instance initialized
+2024-09-20 16:30:16 INFO  TC015_CreatePublicStrategy:73 - WebDriver initialized and application URL opened
+2024-09-20 16:30:16 INFO  TC015_CreatePublicStrategy:13 - *** Starting TC005_CreatePublicStrategy ***
+2024-09-20 16:30:17 INFO  TC015_CreatePublicStrategy:89 - Entered username
+2024-09-20 16:30:17 INFO  TC015_CreatePublicStrategy:92 - Entered password
+2024-09-20 16:30:17 INFO  TC015_CreatePublicStrategy:95 - Clicked on Sign-In button
+2024-09-20 16:30:17 INFO  TC015_CreatePublicStrategy:18 - Login successful.
+2024-09-20 16:30:20 INFO  TC015_CreatePublicStrategy:22 - Clicked on Managed Accounts menu.
+2024-09-20 16:30:23 INFO  TC015_CreatePublicStrategy:25 - Clicked on Published Strategies sub-menu.
+2024-09-20 16:30:23 INFO  TC015_CreatePublicStrategy:30 - Clicked on Add button.
+2024-09-20 16:30:25 INFO  TC015_CreatePublicStrategy:38 - Entered strategy name: xh6wvia Strategy
+2024-09-20 16:30:26 INFO  TC015_CreatePublicStrategy:42 - Entered publisher name: Rafael Parker
+2024-09-20 16:30:26 INFO  TC015_CreatePublicStrategy:45 - Entered strategy description: Autem doloribus id illum.
+2024-09-20 16:30:27 INFO  TC015_CreatePublicStrategy:48 - Set performance fee to 10 for MonthEnd.
+2024-09-20 16:30:31 ERROR TC015_CreatePublicStrategy:66 - An error occurred while creating the public strategy: 
+java.lang.RuntimeException: Unable to click on element: [[ChromeDriver: chrome on windows (c7cbdbd28050177eb40bc9f8e58fd5ba)] -> xpath: //button[@id='btnCreateMAMStrategy']] due to element click intercepted: Element <button type="button" id="btnCreateMAMStrategy" class="btn btn-apply mr-0" data-resourcekey="TXT_SendRequest">...</button> is not clickable at point (1001, 883). Other element would receive the click: <div class="modal Notification-Popup welcome-message fade modal-sm-theme show" id="NotificationPopup" style="display: block;">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7cbdbd28050177eb40bc9f8e58fd5ba, clickElement {id=f.CE9A42AE4F5948ABACB444B7A8C7415B.d.6046542C38763C3C9B233B90C48C1E7C.e.410}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56573/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c7cbdbd28050177eb40bc9f8e58fd5ba)] -> xpath: //button[@id='btnCreateMAMStrategy']]
+Session ID: c7cbdbd28050177eb40bc9f8e58fd5ba
+	at pageObjects.BasePage.waitAndClick(BasePage.java:57) ~[test-classes/:?]
+	at pageObjects.CP.ManagedAccounts_PublishedStrategies.clickSendRequest(ManagedAccounts_PublishedStrategies.java:74) ~[test-classes/:?]
+	at testCases.TC015_CreatePublicStrategy.create_Public_strategy(TC015_CreatePublicStrategy.java:50) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-09-20 16:30:31 INFO  TC015_CreatePublicStrategy:80 - WebDriver session ended
+2024-09-20 18:41:17 INFO  Utils:112 - [TestNG] Running:
+  D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\Master.xml
+
+2024-09-20 18:41:17 INFO  TC001_ValidLoginTest:46 - Logger initialized for testCases.TC001_ValidLoginTest
+2024-09-20 18:41:18 INFO  TC001_ValidLoginTest:50 - Faker instance initialized
+2024-09-20 18:41:31 INFO  TC001_ValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 18:41:31 INFO  TC001_ValidLoginTest:13 - *** Starting TC001_ValidLoginTest ***
+2024-09-20 18:41:32 INFO  TC001_ValidLoginTest:19 - Entered username
+2024-09-20 18:41:32 INFO  TC001_ValidLoginTest:22 - Entered password
+2024-09-20 18:41:32 INFO  TC001_ValidLoginTest:25 - Clicked on Sign-In button
+2024-09-20 18:41:38 INFO  TC001_ValidLoginTest:29 - Dashboard heading text is correct.
+2024-09-20 18:41:38 INFO  TC001_ValidLoginTest:35 - *** Finished TC001_ValidLoginTest ***
+2024-09-20 18:41:38 INFO  TC001_ValidLoginTest:80 - WebDriver session ended
+2024-09-20 18:41:38 INFO  TC002_InValidLoginTest:46 - Logger initialized for testCases.TC002_InValidLoginTest
+2024-09-20 18:41:38 INFO  TC002_InValidLoginTest:50 - Faker instance initialized
+2024-09-20 18:41:46 INFO  TC002_InValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 18:41:46 INFO  TC002_InValidLoginTest:12 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 18:41:46 INFO  TC002_InValidLoginTest:17 - Entered username
+2024-09-20 18:41:47 INFO  TC002_InValidLoginTest:20 - Entered password
+2024-09-20 18:41:47 INFO  TC002_InValidLoginTest:23 - Clicked on Sign-In button
+2024-09-20 18:41:48 INFO  TC002_InValidLoginTest:27 - Error message is displayed as expected for invalid credentials.
+2024-09-20 18:41:54 INFO  TC002_InValidLoginTest:34 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 18:41:56 INFO  TC002_InValidLoginTest:80 - WebDriver session ended
+2024-09-20 18:41:56 INFO  TC003_AccountRegistrationTest:46 - Logger initialized for testCases.TC003_AccountRegistrationTest
+2024-09-20 18:41:56 INFO  TC003_AccountRegistrationTest:50 - Faker instance initialized
+2024-09-20 18:42:03 INFO  TC003_AccountRegistrationTest:73 - WebDriver initialized and application URL opened
+2024-09-20 18:42:03 INFO  TC003_AccountRegistrationTest:15 - *** Starting TC003_AccountRegistrationTest ***
+2024-09-20 18:42:06 INFO  TC003_AccountRegistrationTest:21 - Clicked on Sign-Up button
+2024-09-20 18:42:07 INFO  TC003_AccountRegistrationTest:25 - Entered username
+2024-09-20 18:42:07 INFO  TC003_AccountRegistrationTest:28 - Entered first name
+2024-09-20 18:42:07 INFO  TC003_AccountRegistrationTest:31 - Entered last name
+2024-09-20 18:42:08 INFO  TC003_AccountRegistrationTest:35 - Entered email address
+2024-09-20 18:42:08 INFO  TC003_AccountRegistrationTest:38 - Entered confirm email address
+2024-09-20 18:42:08 INFO  TC003_AccountRegistrationTest:41 - Entered password.
+2024-09-20 18:42:08 INFO  TC003_AccountRegistrationTest:44 - Entered phone number
+2024-09-20 18:42:09 INFO  TC003_AccountRegistrationTest:47 - Clicked on Sign-Up button
+2024-09-20 18:42:12 INFO  TC003_AccountRegistrationTest:57 - *** Finished TC003_AccountRegistrationTest ***
+2024-09-20 18:42:12 INFO  TC003_AccountRegistrationTest:80 - WebDriver session ended
+2024-09-20 18:42:12 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 18:42:12 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 18:42:19 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 18:42:19 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 18:42:19 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 18:42:20 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 18:42:20 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 18:42:20 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 18:42:24 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 18:42:28 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 18:42:28 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 18:42:29 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: mvmas
+2024-09-20 18:42:32 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 18:42:32 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 18:42:32 INFO  TC004_CreateMT4AccountTest:48 - Clicked 'I Confirm' checkbox.
+2024-09-20 18:42:33 INFO  TC004_CreateMT4AccountTest:52 - Clicked on Create Account button.
+2024-09-20 18:42:40 INFO  TC004_CreateMT4AccountTest:56 - MT4 Account created with number: 1245991567
+2024-09-20 18:42:40 INFO  TC004_CreateMT4AccountTest:60 - Dismissed the account creation modal.
+2024-09-20 18:42:40 INFO  TC004_CreateMT4AccountTest:70 - *** Finished TC004_CreateMT4AccountTest ***
+2024-09-20 18:42:41 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 18:42:41 INFO  TC015_CreatePublicStrategy:46 - Logger initialized for testCases.TC015_CreatePublicStrategy
+2024-09-20 18:42:41 INFO  TC015_CreatePublicStrategy:50 - Faker instance initialized
+2024-09-20 18:42:49 INFO  TC015_CreatePublicStrategy:73 - WebDriver initialized and application URL opened
+2024-09-20 18:42:49 INFO  TC015_CreatePublicStrategy:13 - *** Starting TC005_CreatePublicStrategy ***
+2024-09-20 18:42:50 INFO  TC015_CreatePublicStrategy:89 - Entered username
+2024-09-20 18:42:50 INFO  TC015_CreatePublicStrategy:92 - Entered password
+2024-09-20 18:42:50 INFO  TC015_CreatePublicStrategy:95 - Clicked on Sign-In button
+2024-09-20 18:42:50 INFO  TC015_CreatePublicStrategy:18 - Login successful.
+2024-09-20 18:42:55 INFO  TC015_CreatePublicStrategy:22 - Clicked on Managed Accounts menu.
+2024-09-20 18:42:58 INFO  TC015_CreatePublicStrategy:25 - Clicked on Published Strategies sub-menu.
+2024-09-20 18:42:59 INFO  TC015_CreatePublicStrategy:30 - Clicked on Add button.
+2024-09-20 18:43:01 INFO  TC015_CreatePublicStrategy:38 - Entered strategy name: scxscyb Strategy
+2024-09-20 18:43:01 INFO  TC015_CreatePublicStrategy:42 - Entered publisher name: Myron Jaskolski IV
+2024-09-20 18:43:02 INFO  TC015_CreatePublicStrategy:45 - Entered strategy description: Officia officia ea fugit.
+2024-09-20 18:43:03 INFO  TC015_CreatePublicStrategy:48 - Set performance fee to 10 for MonthEnd.
+2024-09-20 18:43:03 INFO  TC015_CreatePublicStrategy:51 - Clicked on Send Request button.
+2024-09-20 18:43:08 INFO  TC015_CreatePublicStrategy:57 - Fetched list of strategy names.
+2024-09-20 18:43:08 INFO  TC015_CreatePublicStrategy:63 - Strategy name found in the list, test passed.
+2024-09-20 18:43:08 INFO  TC015_CreatePublicStrategy:70 - *** Finished TC005_CreatePublicStrategy ***
+2024-09-20 18:43:09 INFO  TC015_CreatePublicStrategy:80 - WebDriver session ended
+2024-09-20 20:03:32 INFO  TC001_ValidLoginTest:46 - Logger initialized for testCases.TC001_ValidLoginTest
+2024-09-20 20:03:32 INFO  TC001_ValidLoginTest:50 - Faker instance initialized
+2024-09-20 20:04:18 INFO  TC001_ValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 20:04:18 INFO  TC001_ValidLoginTest:13 - *** Starting TC001_ValidLoginTest ***
+2024-09-20 20:04:18 INFO  TC001_ValidLoginTest:19 - Entered username
+2024-09-20 20:04:19 INFO  TC001_ValidLoginTest:22 - Entered password
+2024-09-20 20:04:19 INFO  TC001_ValidLoginTest:25 - Clicked on Sign-In button
+2024-09-20 20:04:33 INFO  TC001_ValidLoginTest:29 - Dashboard heading text is correct.
+2024-09-20 20:04:33 INFO  TC001_ValidLoginTest:35 - *** Finished TC001_ValidLoginTest ***
+2024-09-20 20:04:35 INFO  TC001_ValidLoginTest:80 - WebDriver session ended
+2024-09-20 20:04:35 INFO  TC002_InValidLoginTest:46 - Logger initialized for testCases.TC002_InValidLoginTest
+2024-09-20 20:04:35 INFO  TC002_InValidLoginTest:50 - Faker instance initialized
+2024-09-20 20:04:45 INFO  TC002_InValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 20:04:45 INFO  TC002_InValidLoginTest:12 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 20:04:46 INFO  TC002_InValidLoginTest:17 - Entered username
+2024-09-20 20:04:47 INFO  TC002_InValidLoginTest:20 - Entered password
+2024-09-20 20:04:47 INFO  TC002_InValidLoginTest:23 - Clicked on Sign-In button
+2024-09-20 20:04:48 INFO  TC002_InValidLoginTest:27 - Error message is displayed as expected for invalid credentials.
+2024-09-20 20:04:54 INFO  TC002_InValidLoginTest:34 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 20:04:56 INFO  TC002_InValidLoginTest:80 - WebDriver session ended
+2024-09-20 20:04:56 INFO  TC003_AccountRegistrationTest:46 - Logger initialized for testCases.TC003_AccountRegistrationTest
+2024-09-20 20:04:56 INFO  TC003_AccountRegistrationTest:50 - Faker instance initialized
+2024-09-20 20:05:04 INFO  TC003_AccountRegistrationTest:73 - WebDriver initialized and application URL opened
+2024-09-20 20:05:04 INFO  TC003_AccountRegistrationTest:15 - *** Starting TC003_AccountRegistrationTest ***
+2024-09-20 20:05:08 INFO  TC003_AccountRegistrationTest:21 - Clicked on Sign-Up button
+2024-09-20 20:05:10 INFO  TC003_AccountRegistrationTest:25 - Entered username
+2024-09-20 20:05:10 INFO  TC003_AccountRegistrationTest:28 - Entered first name
+2024-09-20 20:05:10 INFO  TC003_AccountRegistrationTest:31 - Entered last name
+2024-09-20 20:05:12 INFO  TC003_AccountRegistrationTest:35 - Entered email address
+2024-09-20 20:05:12 INFO  TC003_AccountRegistrationTest:38 - Entered confirm email address
+2024-09-20 20:05:13 INFO  TC003_AccountRegistrationTest:41 - Entered password.
+2024-09-20 20:05:13 INFO  TC003_AccountRegistrationTest:44 - Entered phone number
+2024-09-20 20:05:14 INFO  TC003_AccountRegistrationTest:47 - Clicked on Sign-Up button
+2024-09-20 20:05:17 INFO  TC003_AccountRegistrationTest:57 - *** Finished TC003_AccountRegistrationTest ***
+2024-09-20 20:05:17 INFO  TC003_AccountRegistrationTest:80 - WebDriver session ended
+2024-09-20 20:05:17 INFO  TC004_CreateMT4AccountTest:46 - Logger initialized for testCases.TC004_CreateMT4AccountTest
+2024-09-20 20:05:17 INFO  TC004_CreateMT4AccountTest:50 - Faker instance initialized
+2024-09-20 20:05:28 INFO  TC004_CreateMT4AccountTest:73 - WebDriver initialized and application URL opened
+2024-09-20 20:05:28 INFO  TC004_CreateMT4AccountTest:12 - *** Starting TC004_CreateMT4AccountTest ***
+2024-09-20 20:05:29 INFO  TC004_CreateMT4AccountTest:89 - Entered username
+2024-09-20 20:05:29 INFO  TC004_CreateMT4AccountTest:92 - Entered password
+2024-09-20 20:05:30 INFO  TC004_CreateMT4AccountTest:95 - Clicked on Sign-In button
+2024-09-20 20:05:30 INFO  TC004_CreateMT4AccountTest:17 - Login successful.
+2024-09-20 20:05:34 INFO  TC004_CreateMT4AccountTest:21 - Clicked on My Accounts.
+2024-09-20 20:05:37 INFO  TC004_CreateMT4AccountTest:24 - Clicked on Create Account.
+2024-09-20 20:05:38 INFO  TC004_CreateMT4AccountTest:30 - Selected MT4 trading platform.
+2024-09-20 20:05:39 INFO  TC004_CreateMT4AccountTest:35 - Entered account name: ryohb
+2024-09-20 20:05:40 INFO  TC004_CreateMT4AccountTest:39 - Selected USD wallet option.
+2024-09-20 20:05:40 INFO  TC004_CreateMT4AccountTest:44 - Set account balance to: 1000
+2024-09-20 20:05:41 INFO  TC004_CreateMT4AccountTest:48 - Clicked 'I Confirm' checkbox.
+2024-09-20 20:05:41 INFO  TC004_CreateMT4AccountTest:52 - Clicked on Create Account button.
+2024-09-20 20:05:47 INFO  TC004_CreateMT4AccountTest:56 - MT4 Account created with number: 1245991630
+2024-09-20 20:05:47 INFO  TC004_CreateMT4AccountTest:60 - Dismissed the account creation modal.
+2024-09-20 20:05:47 INFO  TC004_CreateMT4AccountTest:70 - *** Finished TC004_CreateMT4AccountTest ***
+2024-09-20 20:06:01 INFO  TC004_CreateMT4AccountTest:80 - WebDriver session ended
+2024-09-20 20:06:01 INFO  TC015_CreatePublicStrategy:46 - Logger initialized for testCases.TC015_CreatePublicStrategy
+2024-09-20 20:06:01 INFO  TC015_CreatePublicStrategy:50 - Faker instance initialized
+2024-09-20 20:06:11 INFO  TC015_CreatePublicStrategy:73 - WebDriver initialized and application URL opened
+2024-09-20 20:06:11 INFO  TC015_CreatePublicStrategy:13 - *** Starting TC005_CreatePublicStrategy ***
+2024-09-20 20:06:11 INFO  TC015_CreatePublicStrategy:89 - Entered username
+2024-09-20 20:06:12 INFO  TC015_CreatePublicStrategy:92 - Entered password
+2024-09-20 20:06:12 INFO  TC015_CreatePublicStrategy:95 - Clicked on Sign-In button
+2024-09-20 20:06:12 INFO  TC015_CreatePublicStrategy:18 - Login successful.
+2024-09-20 20:06:15 INFO  TC015_CreatePublicStrategy:22 - Clicked on Managed Accounts menu.
+2024-09-20 20:06:18 INFO  TC015_CreatePublicStrategy:25 - Clicked on Published Strategies sub-menu.
+2024-09-20 20:06:19 INFO  TC015_CreatePublicStrategy:30 - Clicked on Add button.
+2024-09-20 20:06:22 INFO  TC015_CreatePublicStrategy:38 - Entered strategy name: 7nobqdv Strategy
+2024-09-20 20:06:22 INFO  TC015_CreatePublicStrategy:42 - Entered publisher name: Sean Toy
+2024-09-20 20:06:23 INFO  TC015_CreatePublicStrategy:45 - Entered strategy description: Officiis molestiae magni natus enim impedit voluptas expedita.
+2024-09-20 20:06:24 INFO  TC015_CreatePublicStrategy:48 - Set performance fee to 10 for MonthEnd.
+2024-09-20 20:06:24 INFO  TC015_CreatePublicStrategy:51 - Clicked on Send Request button.
+2024-09-20 20:06:30 INFO  TC015_CreatePublicStrategy:57 - Fetched list of strategy names.
+2024-09-20 20:06:30 INFO  TC015_CreatePublicStrategy:63 - Strategy name found in the list, test passed.
+2024-09-20 20:06:30 INFO  TC015_CreatePublicStrategy:70 - *** Finished TC005_CreatePublicStrategy ***
+2024-09-20 20:06:32 INFO  TC015_CreatePublicStrategy:80 - WebDriver session ended
+2024-09-20 20:25:44 INFO  TC001_ValidLoginTest:46 - Logger initialized for testCases.TC001_ValidLoginTest
+2024-09-20 20:25:45 INFO  TC001_ValidLoginTest:50 - Faker instance initialized
+2024-09-20 20:26:01 INFO  TC002_InValidLoginTest:46 - Logger initialized for testCases.TC002_InValidLoginTest
+2024-09-20 20:26:01 INFO  TC002_InValidLoginTest:50 - Faker instance initialized
+2024-09-20 20:26:11 INFO  TC002_InValidLoginTest:73 - WebDriver initialized and application URL opened
+2024-09-20 20:26:11 INFO  TC002_InValidLoginTest:12 - *** Starting TC002_InValidLoginTest ***
+2024-09-20 20:26:11 INFO  TC002_InValidLoginTest:17 - Entered username
+2024-09-20 20:26:12 INFO  TC002_InValidLoginTest:20 - Entered password
+2024-09-20 20:26:12 INFO  TC002_InValidLoginTest:23 - Clicked on Sign-In button
+2024-09-20 20:26:13 INFO  TC002_InValidLoginTest:80 - WebDriver session ended

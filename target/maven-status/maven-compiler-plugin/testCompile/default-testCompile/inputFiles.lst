@@ -1,0 +1,16 @@
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\BasePage.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\Dashboard.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\ManagedAccounts_PublishedStrategies.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\MyAccounts_CreateAccountMT4.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\MyWallet\Deposit_Funds.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\Navigation.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\SigninPage.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\SignupPage.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\BaseClass.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC001_ValidLoginTest.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC002_InValidLoginTest.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC003_AccountRegistrationTest.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC004_CreateMT4AccountTest.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC005_DepositFundsUSDTest.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC015_CreatePublicStrategy.java
+D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\utilities\ExtentReportManager.java

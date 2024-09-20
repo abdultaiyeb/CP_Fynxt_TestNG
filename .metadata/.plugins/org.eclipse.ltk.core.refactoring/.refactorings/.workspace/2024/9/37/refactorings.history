@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;AllurereportingSeleniumTestNG&apos;" deleteContents="false" description="Delete resource &apos;AllurereportingSeleniumTestNG&apos;" element1="/AllurereportingSeleniumTestNG" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1725964681890"/>
+</session>
