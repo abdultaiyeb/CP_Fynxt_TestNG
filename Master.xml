@@ -9,13 +9,13 @@
     <parameter name="browser" value="chrome"/>
   
     <classes>
-   <class name="testCases.TC001_ValidLoginTest"/>
-      <class name="testCases.TC002_InValidLoginTest"/>
-      
+ <class name="testCases.TC001_ValidLoginTest"/>
+      <class name="testCases.TC002_InValidLoginTest"/>      
      <class name="testCases.TC003_AccountRegistrationTest"/>
     <class name="testCases.TC004_CreateMT4AccountTest"/>
+    <class name="testCases.TC005_DepositFundsUSDTest"/>
+    <class name="testCases.TC015_CreatePublicStrategy"/>	
    
-    <class name="testCases.TC015_CreatePublicStrategy"/>
     
     
     

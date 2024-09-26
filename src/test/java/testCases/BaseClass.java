@@ -18,7 +18,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.github.javafaker.Faker;
@@ -34,7 +36,7 @@ public class BaseClass {
 
     @BeforeClass(groups = {"Sanity", "Regression", "Master"})
     @Parameters({"os", "browser"})
-    public void setUp(String os, String br) throws IOException {
+    public void setUpClass(String os, String br) throws IOException {
         // Load the properties file
         try (FileReader file = new FileReader("./src/test/resources/config.properties")) {
             p = new Properties();
@@ -48,7 +50,11 @@ public class BaseClass {
         // Initialize the Faker object
         faker = new Faker();
         logger.info("Faker instance initialized");
+    }
 
+    @BeforeMethod(groups = {"Sanity", "Regression", "Master"})
+    @Parameters({"browser"})
+    public void setUp(String br) {
         // Browser setup
         switch (br.toLowerCase()) {
             case "chrome":
@@ -73,12 +79,17 @@ public class BaseClass {
         logger.info("WebDriver initialized and application URL opened");
     }
 
-    @AfterClass(groups = {"Sanity", "Regression", "Master"})
-    public void tearDown() {
+    @AfterMethod(groups = {"Sanity", "Regression", "Master"})
+    public void tearDownMethod() {
         if (driver != null) {
             driver.quit();
-            logger.info("WebDriver session ended");
+            logger.info("WebDriver session ended after method execution");
         }
+    }
+
+    @AfterClass(groups = {"Sanity", "Regression", "Master"})
+    public void tearDownClass() {
+        logger.info("Test class teardown completed");
     }
 
     // Reusable login method

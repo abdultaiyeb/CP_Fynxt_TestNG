@@ -1,12 +1,10 @@
 package pageObjects.CP.MyWallet;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import pageObjects.BasePage;
 
 public class Deposit_Funds extends BasePage {
@@ -19,22 +17,25 @@ public class Deposit_Funds extends BasePage {
     private WebElement amountField;
 
     @FindBy(xpath = "//div[@class='wallet-container']//li[2]//a[1]")
-    private WebElement paymentMethod; 
+    private WebElement paymentMethod;
 
     @FindBy(xpath = "//button[@data-id='BankAccountId']//span[@class='filter-option pull-left'][normalize-space()='Select']")
     private WebElement clickSelect;
 
-    @FindBy(xpath="//span[@class='text'][normalize-space()='Abdul(12345)']") 
+    @FindBy(xpath = "//span[@class='text'][normalize-space()='Abdul(12345)']")
     private WebElement bankAccountOptions;
 
-    @FindBy(xpath="//button[@id='btnProceed']") 
+    @FindBy(xpath = "//button[@id='btnProceed']")
     private WebElement proceedBtn;
 
-    @FindBy(xpath="//div[@class='jconfirm-buttons']//button[text()='Confirm']")
+    @FindBy(xpath = "//div[@class='jconfirm-buttons']//button[text()='Confirm']")
     private WebElement confirmBtn;
 
-    @FindBy(xpath="//div[@class='toast-message']")
+    @FindBy(xpath = "//div[@class='toast-message']")
     private WebElement successMsg;
+
+    @FindBy(xpath = "//i[@data-dismiss='modal']")
+    private WebElement closeIcon;
 
     // Method to insert deposit amount
     public void insertDepositAmount(String amount) {
@@ -42,16 +43,14 @@ public class Deposit_Funds extends BasePage {
         waitAndSendKeys(amountField, amount);
     }
 
-    // Method to select payment method
-    public void selectPaymentMethod() {
+    // Method to click on payment method
+    public void clickPaymentMethod() {
         waitAndClick(paymentMethod);
     }
 
-    
-
     // Method to select a bank account from the dropdown
-    public void selectBankAccount() {
-        clickBankAccountDropdownWithJS(); // Ensure dropdown is clicked using JS
+    public void selectBankAccountFromDropdown() {
+        clickBankAccountDropdownWithJS();  // Ensure dropdown is clicked using JavaScript
         waitAndClick(bankAccountOptions);
     }
 
@@ -65,13 +64,22 @@ public class Deposit_Funds extends BasePage {
         waitAndClick(confirmBtn);
     }
 
+    // Method to get the success message
     public String getSuccessMessage() {
         waitForVisibility(successMsg);  
         return successMsg.getText();     
     }
 
+    // Click bank account dropdown using JavaScript Executor
     public void clickBankAccountDropdownWithJS() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click();", clickSelect);  // clickSelect is your dropdown WebElement
+        js.executeScript("arguments[0].click();", clickSelect);
+    }
+
+    // Method to close popup using Action class
+    public void closePopupWithAction() {
+        Actions actions = new Actions(driver);
+        waitForVisibility(closeIcon);  // Ensure the close icon is visible
+        actions.moveToElement(closeIcon).click().perform();
     }
 }

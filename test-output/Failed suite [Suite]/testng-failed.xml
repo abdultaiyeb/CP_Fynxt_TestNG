@@ -8,13 +8,24 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC004_CreateMT4AccountTest">
+      <class name="testCases.TC015_CreatePublicStrategy">
         <methods>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="createMT4_Account"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="create_Public_strategy"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- testCases.TC004_CreateMT4AccountTest -->
+      </class> <!-- testCases.TC015_CreatePublicStrategy -->
+      <class name="testCases.TC005_DepositFundsUSDTest">
+        <methods>
+          <include name="approvedepositFundsUSD"/>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- testCases.TC005_DepositFundsUSDTest -->
     </classes>
   </test> <!-- Test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->
