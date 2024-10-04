@@ -6,10 +6,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class SigninPage extends BasePage {
 
-    public SigninPage(WebDriver driver) {
-        super(driver);
-    }
-
     @FindBy(xpath = "//button[@id='btnLoginSignupFlip']")
     private WebElement signUpBtn;
 
@@ -22,37 +18,45 @@ public class SigninPage extends BasePage {
     @FindBy(xpath = "//button[@id='btnCustomerLogin']")
     private WebElement signInBtn;
 
-    
-    @FindBy(xpath="//div[@aria-live='assertive']//div") 
+    @FindBy(xpath = "//div[@aria-live='assertive']//div")
     private WebElement errorTxt;
-    
-    
+
+    public SigninPage(WebDriver driver) {
+        super(driver);
+    }
+
     // Method to click the sign-up button
-    public void clickSignUpBtn() {
+    public void clickSignUp() {
         waitAndClick(signUpBtn);
     }
 
     // Method to enter email or username
-    public void enterEmailTxt(String username) {
-        waitAndSendKeys(emailTxt, username);
+    public void enterEmail(String username) {
+        waitAndClearAndSendKeys(emailTxt, username);
     }
 
     // Method to enter password
-    public void enterPasswordTxt(String password) {
-        waitAndSendKeys(passwordTxt, password);
+    public void enterPassword(String password) {
+        waitAndClearAndSendKeys(passwordTxt, password);
     }
 
     // Method to click the sign-in button
-    public void clickSignInBtn() {
+    public void clickSignIn() {
         waitAndClick(signInBtn);
     }
-    
-    public boolean isErrorMessageVisible() {
+
+    // Method to check if the error message is visible
+    public boolean isErrorVisible() {
+        return isElementVisible(errorTxt);
+    }
+
+    // Helper method to check if an element is visible
+    private boolean isElementVisible(WebElement element) {
         try {
-            waitForVisibility(errorTxt);
-            return errorTxt.isDisplayed();
+            waitForVisibility(element);
+            return element.isDisplayed();
         } catch (Exception e) {
-            // Handle any exceptions (e.g., element not found, not visible)
+           
             return false;
         }
     }

@@ -1,16 +1,19 @@
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\BasePage.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\Dashboard.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\ManagedAccounts_PublishedStrategies.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\MyAccounts_CreateAccountMT4.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\MyWallet\Deposit_Funds.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\CP\Navigation.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\SigninPage.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\pageObjects\SignupPage.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\BaseClass.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC001_ValidLoginTest.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC002_InValidLoginTest.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC003_AccountRegistrationTest.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC004_CreateMT4AccountTest.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC005_DepositFundsUSDTest.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\testCases\TC015_CreatePublicStrategy.java
-D:\OneDrive - Tech4JC Pte. Ltd\Desktop\Java-selenium\Fynxt_TestNG\QA_CP_fynxt\src\test\java\utilities\ExtentReportManager.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\BasePage.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\Dashboard.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\Deposit_Funds.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\ManagedAccounts_PublishedStrategies.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\MyAccounts_CreateAccountMT4.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\MyAccounts_TransferFunds.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\Navigation.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\SigninPage.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\pageObjects\SignupPage.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testBase\BaseClass.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testCases\TC001_LoginTests.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testCases\TC002_AccountRegistrationTest.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testCases\TC003_CreateMT4AccountTest.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testCases\TC004_TransferFundsTest.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testCases\TC005_DepositFundsUSDTest.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\testCases\TC015_CreatePublicStrategy.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\utilities\ConfigReader.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\utilities\ExtentReportManager.java
+C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\src\test\java\utilities\TestUtils.java

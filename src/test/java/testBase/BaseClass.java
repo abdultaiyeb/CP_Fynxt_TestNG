@@ -1,4 +1,4 @@
-package testCases;
+package testBase;
 
 import java.io.File;
 import java.io.FileReader;
@@ -96,13 +96,13 @@ public class BaseClass {
     public void login() {
         signinPage = new SigninPage(driver);  // Initialize SigninPage object
 
-        signinPage.enterEmailTxt(p.getProperty("username"));
+        signinPage.enterEmail(p.getProperty("username"));
         logger.info("Entered username");
 
-        signinPage.enterPasswordTxt(p.getProperty("password"));
+        signinPage.enterPassword(p.getProperty("password"));
         logger.info("Entered password");
 
-        signinPage.clickSignInBtn();
+        signinPage.clickSignIn();
         logger.info("Clicked on Sign-In button");
     }
 

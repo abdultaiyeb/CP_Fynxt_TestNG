@@ -22,7 +22,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import testCases.BaseClass;
+import testBase.BaseClass;
 
 public class ExtentReportManager implements ITestListener {
     public ExtentSparkReporter sparkReporter;

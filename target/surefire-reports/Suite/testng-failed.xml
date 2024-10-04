@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_AccountRegistrationTest">
+      <class name="testCases.TC004_TransferFundsTest">
         <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
           <include name="setUp"/>
-          <include name="account_registration"/>
-          <include name="tearDown"/>
+          <include name="tearDownMethod"/>
+          <include name="transferFunds"/>
         </methods>
-      </class> <!-- testCases.TC003_AccountRegistrationTest -->
+      </class> <!-- testCases.TC004_TransferFundsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,15 +1,32 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageObjects.CP.MyAccounts_CreateAccountMT4;
-import pageObjects.CP.Navigation;
 
-public class TC004_CreateMT4AccountTest extends BaseClass {
+import com.github.javafaker.Faker;
+
+import pageObjects.MyAccounts_CreateAccountMT4;
+import pageObjects.Navigation;
+import testBase.BaseClass;
+
+public class TC003_CreateMT4AccountTest extends BaseClass {
+    private Faker faker;
+
+    // Constants for test data
+    private static final String DEPOSIT_AMOUNT = "1000";
+    private static final String TRADING_PLATFORM = "MT4";
+    private static final String WALLET_OPTION = "USD";
+
+    @BeforeClass
+    public void setUp() {
+        // Initialize the Faker instance
+        faker = new Faker();
+    }
 
     @Test
     public void createMT4_Account() throws InterruptedException {
-        logger.info("*** Starting TC004_CreateMT4AccountTest ***");
+        logger.info("*** Starting TC003_CreateMT4AccountTest ***");
 
         try {
             // Call the reusable login method from BaseClass
@@ -26,8 +43,8 @@ public class TC004_CreateMT4AccountTest extends BaseClass {
             MyAccounts_CreateAccountMT4 createAccountPage = new MyAccounts_CreateAccountMT4(driver);
 
             // Select trading platform
-            createAccountPage.selectTradingPlatformOption("MT4");
-            logger.info("Selected MT4 trading platform.");
+            createAccountPage.selectTradingPlatformOption(TRADING_PLATFORM);
+            logger.info("Selected trading platform: " + TRADING_PLATFORM);
 
             // Use Faker to generate random account name
             String accountName = faker.letterify("?????");  // 5 random letters
@@ -35,27 +52,26 @@ public class TC004_CreateMT4AccountTest extends BaseClass {
             logger.info("Entered account name: " + accountName);
 
             // Select wallet option
-            createAccountPage.selectWalletOption("USD");
-            logger.info("Selected USD wallet option.");
+            createAccountPage.selectWalletOption(WALLET_OPTION);
+            logger.info("Selected wallet option: " + WALLET_OPTION);
 
             // Set account balance
-            String amount = "1000";
-            createAccountPage.setAmount(amount);
-            logger.info("Set account balance to: " + amount);
+            createAccountPage.setAmount(DEPOSIT_AMOUNT);
+            logger.info("Set account balance to: " + DEPOSIT_AMOUNT);
 
             // Confirm account creation
             createAccountPage.clickIConfirm();
             logger.info("Clicked 'I Confirm' checkbox.");
 
             // Click Create Account button
-            createAccountPage.clickCreateAccountbtn();
+            createAccountPage.clickCreateAccountBtn();
             logger.info("Clicked on Create Account button.");
 
             // Fetch and log MT4 account number
             String mt4AccountNumber = createAccountPage.getMT4AccountNumber();
             logger.info("MT4 Account created with number: " + mt4AccountNumber);
 
-           
+            // Dismiss the account creation modal
             createAccountPage.clickDismissModal();
             logger.info("Dismissed the account creation modal.");
 
@@ -67,6 +83,6 @@ public class TC004_CreateMT4AccountTest extends BaseClass {
             Assert.fail("Test failed due to an exception.");
         }
 
-        logger.info("*** Finished TC004_CreateMT4AccountTest ***");
+        logger.info("*** Finished TC003_CreateMT4AccountTest ***");
     }
 }

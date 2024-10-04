@@ -7,30 +7,31 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.google.common.base.Supplier;
 
 import java.util.NoSuchElementException;
+import java.util.logging.Logger;
 
 public class BasePage {
 
     protected WebDriver driver;
     protected Wait<WebDriver> wait;
-    private static final int RETRY_LIMIT = 3; // Retry limit
+    private static final int RETRY_LIMIT = 3;
+    private static final Logger LOGGER = Logger.getLogger(BasePage.class.getName());
 
-    // Constructor with customizable timeout and polling interval
+    // Constructor with default timeout and polling interval
     public BasePage(WebDriver driver) {
-        this.driver = driver;
-        this.wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(20)) // Default timeout of 10 seconds
-                .pollingEvery(Duration.ofMillis(500)) // Poll every 500 milliseconds
-                .ignoring(NoSuchElementException.class); // Ignore this exception during polling
-        PageFactory.initElements(driver, this);
+        this(driver, 20, 500); // Default values
     }
 
     // Overloaded constructor to allow custom timeout and polling intervals
     public BasePage(WebDriver driver, long timeoutInSeconds, long pollingInMillis) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        this.wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(timeoutInSeconds))
+                .pollingEvery(Duration.ofMillis(pollingInMillis))
+                .ignoring(NoSuchElementException.class);
         PageFactory.initElements(driver, this);
     }
 
@@ -39,41 +40,58 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    // Wait for an element to be clickable
-    public void waitForElementToBeClickable(WebElement element) {
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+    // Generic method to handle retries for actions
+    private void retryAction(Runnable action) {
+        for (int attempt = 1; attempt <= RETRY_LIMIT; attempt++) {
+            try {
+                action.run();
+                return; // Exit if action is successful
+            } catch (Exception e) {
+                if (attempt == RETRY_LIMIT) {
+                    throw new RuntimeException("Action failed after " + RETRY_LIMIT + " attempts: " + e.getMessage());
+                }
+                LOGGER.warning("Attempt " + attempt + " failed: " + e.getMessage() + ". Retrying...");
+            }
+        }
     }
 
-    // Generic method to click after waiting for the element to be clickable with retry
+    // Method to click an element
     public void waitAndClick(WebElement element) {
-        for (int i = 0; i < RETRY_LIMIT; i++) {
-            try {
-                waitForElementToBeClickable(element);
-                element.click();
-                return; // Exit if click is successful
-            } catch (Exception e) {
-                System.out.println("Click failed on attempt " + (i + 1) + ". Retrying...");
-                if (i == RETRY_LIMIT - 1) {
-                    throw new RuntimeException("Unable to click on element: " + element + " due to " + e.getMessage());
-                }
-            }
-        }
+        retryAction(() -> {
+            waitForVisibility(element);
+            element.click();
+        });
     }
 
-    // Generic method to send keys after waiting for visibility with retry
-    public void waitAndSendKeys(WebElement element, String text) {
-        for (int i = 0; i < RETRY_LIMIT; i++) {
+    // Method to clear an element and send keys to it
+    public void waitAndClearAndSendKeys(WebElement element, String text) {
+        retryAction(() -> {
+            waitForVisibility(element);
+            element.clear();
+            element.sendKeys(text);
+        });
+    }
+
+    // Method to get text from an element with retry logic
+    public String waitAndGetText(WebElement element) {
+        return retryActionWithResult(() -> {
+            waitForVisibility(element);
+            return element.getText().trim();
+        });
+    }
+
+    // Generic method to handle retries with return values
+    private <T> T retryActionWithResult(Supplier<T> action) {
+        for (int attempt = 1; attempt <= RETRY_LIMIT; attempt++) {
             try {
-                waitForVisibility(element);
-                element.clear(); // Clear the field before entering text (optional based on use case)
-                element.sendKeys(text);
-                return; // Exit if sending keys is successful
+                return action.get(); // Execute the action and return the result
             } catch (Exception e) {
-                System.out.println("Send keys failed on attempt " + (i + 1) + ". Retrying...");
-                if (i == RETRY_LIMIT - 1) {
-                    throw new RuntimeException("Unable to send keys to element: " + element + " due to " + e.getMessage());
+                if (attempt == RETRY_LIMIT) {
+                    throw new RuntimeException("Action failed after " + RETRY_LIMIT + " attempts: " + e.getMessage());
                 }
+                LOGGER.warning("Attempt " + attempt + " failed: " + e.getMessage() + ". Retrying...");
             }
         }
+        return null; // This line will never be reached, but it's here to satisfy the return type
     }
 }

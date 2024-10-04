@@ -1,9 +1,8 @@
-package pageObjects.CP;
+package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pageObjects.BasePage;
 
 public class Navigation extends BasePage {
 
@@ -22,6 +21,9 @@ public class Navigation extends BasePage {
 
     @FindBy(xpath = "//body/aside[@id='sidebar']/div[@id='menu-accordion1']/ul[contains(@class,'navbar-nav')]/li[contains(@class,'nav-item dropdown-true dropdown-true-active')]/div[@id='MyWallet_menu_type_1']/ul[contains(@class,'nav')]/li[1]/a[1]")
     private WebElement depositFundsSubMenu;
+
+    @FindBy(xpath="//body/aside[@id='sidebar']/div[@id='menu-accordion1']/ul[contains(@class,'navbar-nav')]/li[contains(@class,'nav-item dropdown-true dropdown-true-active')]/div[@id='MyWallet_menu_type_1']/ul[contains(@class,'nav')]/li[3]/a[1]") 
+    private WebElement transferFundsSubMenu;
 
     @FindBy(xpath = "//span[normalize-space(text()) = 'Managed Accounts']")
     private WebElement managedAccountsMenu;
@@ -43,6 +45,10 @@ public class Navigation extends BasePage {
 
     public void clickOnDepositFunds() {
         waitAndClick(depositFundsSubMenu);
+    }
+
+    public void clickOnTransferFunds() {
+        waitAndClick(transferFundsSubMenu);
     }
 
     public void clickOnManagedAccountsMenu() {

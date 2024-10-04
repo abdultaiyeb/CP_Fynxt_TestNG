@@ -1,11 +1,10 @@
-package pageObjects.CP.MyWallet;
+package pageObjects;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import pageObjects.BasePage;
 
 public class Deposit_Funds extends BasePage {
 
@@ -39,8 +38,7 @@ public class Deposit_Funds extends BasePage {
 
     // Method to insert deposit amount
     public void insertDepositAmount(String amount) {
-        amountField.clear();
-        waitAndSendKeys(amountField, amount);
+        waitAndClearAndSendKeys(amountField, amount);
     }
 
     // Method to click on payment method
@@ -50,7 +48,7 @@ public class Deposit_Funds extends BasePage {
 
     // Method to select a bank account from the dropdown
     public void selectBankAccountFromDropdown() {
-        clickBankAccountDropdownWithJS();  // Ensure dropdown is clicked using JavaScript
+        clickBankAccountDropdownWithJS();  
         waitAndClick(bankAccountOptions);
     }
 
@@ -66,20 +64,23 @@ public class Deposit_Funds extends BasePage {
 
     // Method to get the success message
     public String getSuccessMessage() {
-        waitForVisibility(successMsg);  
-        return successMsg.getText();     
+        return waitAndGetText(successMsg); // Using retry logic for getting text
     }
 
     // Click bank account dropdown using JavaScript Executor
-    public void clickBankAccountDropdownWithJS() {
+    private void clickBankAccountDropdownWithJS() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", clickSelect);
     }
 
-    // Method to close popup using Action class
+    public void refreshPage() {
+        driver.navigate().refresh();
+    }
+    
+    // Method to close popup using Actions class
     public void closePopupWithAction() {
         Actions actions = new Actions(driver);
-        waitForVisibility(closeIcon);  // Ensure the close icon is visible
+        waitForVisibility(closeIcon);
         actions.moveToElement(closeIcon).click().perform();
     }
 }

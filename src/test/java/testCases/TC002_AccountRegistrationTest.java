@@ -7,17 +7,18 @@ import com.github.javafaker.Faker;
 
 import pageObjects.SigninPage;
 import pageObjects.SignupPage;
+import testBase.BaseClass;
 
-public class TC003_AccountRegistrationTest extends BaseClass {
+public class TC002_AccountRegistrationTest extends BaseClass {
 
     @Test
     public void account_registration() throws InterruptedException {
-        logger.info("*** Starting TC003_AccountRegistrationTest ***");
+        logger.info("*** Starting TC002_AccountRegistrationTest ***");
         try {
             Faker faker = new Faker(); // Initialize Faker for random data generation
             
             SigninPage signinPage = new SigninPage(driver);
-            signinPage.clickSignUpBtn();
+            signinPage.clickSignUp();
             logger.info("Clicked on Sign-Up button");
             
             SignupPage signupPage = new SignupPage(driver);
@@ -30,7 +31,7 @@ public class TC003_AccountRegistrationTest extends BaseClass {
             signupPage.enterLastName(faker.name().lastName());
             logger.info("Entered last name");
             
-            String email = faker.internet().emailAddress(); // Random email
+            String email = faker.internet().emailAddress(); 
             signupPage.enterEmailAddress(email);
             logger.info("Entered email address");
             
@@ -54,7 +55,7 @@ public class TC003_AccountRegistrationTest extends BaseClass {
             Assert.fail("Test failed due to an exception.");
         }
 
-        logger.info("*** Finished TC003_AccountRegistrationTest ***");
+        logger.info("*** Finished TC002_AccountRegistrationTest ***");
     }
 
 	

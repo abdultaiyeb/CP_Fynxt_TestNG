@@ -1,10 +1,10 @@
-package pageObjects.CP;
+package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pageObjects.BasePage;
+
 import java.util.List;
 
 public class MyAccounts_CreateAccountMT4 extends BasePage {
@@ -49,11 +49,11 @@ public class MyAccounts_CreateAccountMT4 extends BasePage {
     // Method to select an option from the Trading Platform dropdown
     public void selectTradingPlatformOption(String platformName) {
         waitAndClick(tradingPlatformDropdown);
-        waitForVisibility(tradingPlatformOptions.get(0)); // Wait for the first option to be visible
+        waitForVisibility(tradingPlatformOptions.get(0)); 
 
         for (WebElement option : tradingPlatformOptions) {
             if (option.getText().contains(platformName)) {
-                waitAndClick(option);  // Click the desired option
+                waitAndClick(option);  
                 break;
             }
         }
@@ -61,50 +61,47 @@ public class MyAccounts_CreateAccountMT4 extends BasePage {
 
     // Method to enter Account Name
     public void setAccountName(String accountName) {
-        waitForVisibility(accountNameField);  
-        accountNameField.clear();  
-        waitAndSendKeys(accountNameField, accountName);  
+        waitAndClick(accountNameField); 
+        waitAndClearAndSendKeys(accountNameField, accountName);
     }
 
     // Method to select a currency from the wallet dropdown
     public void selectWalletOption(String currency) {
         waitAndClick(walletDropdown);
-        waitForVisibility(walletOptions.get(0));  // Wait for the wallet options to be visible
-        
+        waitForVisibility(walletOptions.get(0));  
+
         for (WebElement option : walletOptions) {
             if (option.getText().contains(currency)) {
-                waitAndClick(option);  
+                waitAndClick(option);
                 break;
             }
         }
     }
 
-    // Method to set amount
+    // Method to set the amount
     public void setAmount(String amount) {
-        waitForVisibility(setAmount);  
-        setAmount.clear();  
-        waitAndSendKeys(setAmount, amount);  
+        waitAndClick(setAmount); 
+        waitAndClearAndSendKeys(setAmount, amount);
     }
 
     // Method to click 'I Confirm'
     public void clickIConfirm() {
-        waitAndClick(clickIConfirm);  
+        waitAndClick(clickIConfirm);
     }
 
     // Method to click 'Create Account' button
-    public void clickCreateAccountbtn() {
-        waitAndClick(createAccountBtn);  
+    public void clickCreateAccountBtn() {
+        waitAndClick(createAccountBtn);
     }
 
     // Method to get MT4 Account Number
     public String getMT4AccountNumber() {
-        waitForVisibility(mt4AccountNo);  
-        String accountNumber = mt4AccountNo.getText();  
-        return accountNumber;
+        waitForVisibility(mt4AccountNo);
+        return mt4AccountNo.getText();  
     }
 
     // Method to click dismiss modal (cross button)
     public void clickDismissModal() {
-        waitAndClick(clickCross);  // Click the cross button to dismiss the modal
+        waitAndClick(clickCross);  
     }
 }

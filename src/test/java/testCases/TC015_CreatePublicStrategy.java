@@ -3,11 +3,15 @@ package testCases;
 import java.util.List;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.CP.ManagedAccounts_PublishedStrategies;
-import pageObjects.CP.Navigation;
+
+import com.github.javafaker.Faker;
+
+import pageObjects.ManagedAccounts_PublishedStrategies;
+import pageObjects.Navigation;
+import testBase.BaseClass;
 
 public class TC015_CreatePublicStrategy extends BaseClass {
-
+	
     @Test
     public void create_Public_strategy() {
         logger.info("*** Starting TC005_CreatePublicStrategy ***");
@@ -29,7 +33,9 @@ public class TC015_CreatePublicStrategy extends BaseClass {
             publishedStrategies.clickAddButton();
             logger.info("Clicked on Add button.");
 
-            // Use Faker to generate random data
+            
+			
+			// Use Faker to generate random data
             String strategyName = faker.lorem().characters(7)+ " Strategy";
             String publisherName = faker.name().fullName();
             String strategyDescription = faker.lorem().sentence();
