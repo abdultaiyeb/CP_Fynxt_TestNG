@@ -8,15 +8,16 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC004_TransferFundsTest">
+      <class name="testCases.TC003_CreateMT4AccountTest">
         <methods>
           <include name="setUpClass"/>
+          <include name="createMT4_Account"/>
           <include name="tearDownClass"/>
           <include name="setUp"/>
+          <include name="setUp"/>
           <include name="tearDownMethod"/>
-          <include name="transferFunds"/>
         </methods>
-      </class> <!-- testCases.TC004_TransferFundsTest -->
+      </class> <!-- testCases.TC003_CreateMT4AccountTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

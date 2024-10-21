@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T16:45:29 IST" name="Suite" finished-at="2024-09-30T16:46:08 IST" duration-ms="39117">
+  <suite started-at="2024-10-21T23:29:30 IST" name="Suite" finished-at="2024-10-21T23:30:03 IST" duration-ms="33179">
     <groups>
     </groups>
-    <test started-at="2024-09-30T16:45:29 IST" name="Test" finished-at="2024-09-30T16:46:08 IST" duration-ms="39117">
-      <class name="testCases.TC004_TransferFundsTest">
-        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_TransferFundsTest@60dce7ea]" started-at="2024-09-30T16:45:29 IST" name="setUpClass" finished-at="2024-09-30T16:45:30 IST" duration-ms="66" status="PASS">
+    <test started-at="2024-10-21T23:29:30 IST" name="Test" finished-at="2024-10-21T23:30:03 IST" duration-ms="33179">
+      <class name="testCases.TC003_CreateMT4AccountTest">
+        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_CreateMT4AccountTest@2fea7088]" started-at="2024-10-21T23:29:30 IST" name="setUpClass" finished-at="2024-10-21T23:29:30 IST" duration-ms="78" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC004_TransferFundsTest@60dce7ea]" started-at="2024-09-30T16:45:30 IST" name="setUp" finished-at="2024-09-30T16:45:39 IST" duration-ms="9726" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC003_CreateMT4AccountTest@2fea7088]" started-at="2024-10-21T23:29:30 IST" name="setUp" finished-at="2024-10-21T23:29:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_CreateMT4AccountTest@2fea7088]" started-at="2024-10-21T23:29:30 IST" name="setUp" finished-at="2024-10-21T23:29:38 IST" duration-ms="7924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,19 +38,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="transferFunds()[pri:0, instance:testCases.TC004_TransferFundsTest@60dce7ea]" started-at="2024-09-30T16:45:39 IST" name="transferFunds" finished-at="2024-09-30T16:46:08 IST" duration-ms="28447" status="PASS">
+        <test-method signature="createMT4_Account()[pri:0, instance:testCases.TC003_CreateMT4AccountTest@2fea7088]" started-at="2024-10-21T23:29:38 IST" name="createMT4_Account" finished-at="2024-10-21T23:30:01 IST" duration-ms="22728" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- transferFunds -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.TC004_TransferFundsTest@60dce7ea]" started-at="2024-09-30T16:46:08 IST" name="tearDownMethod" finished-at="2024-09-30T16:46:08 IST" duration-ms="456" status="PASS">
+        </test-method> <!-- createMT4_Account -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:testCases.TC003_CreateMT4AccountTest@2fea7088]" started-at="2024-10-21T23:30:01 IST" name="tearDownMethod" finished-at="2024-10-21T23:30:03 IST" duration-ms="2029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testCases.TC004_TransferFundsTest@60dce7ea]" started-at="2024-09-30T16:46:08 IST" name="tearDownClass" finished-at="2024-09-30T16:46:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testCases.TC003_CreateMT4AccountTest@2fea7088]" started-at="2024-10-21T23:30:03 IST" name="tearDownClass" finished-at="2024-10-21T23:30:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- testCases.TC004_TransferFundsTest -->
+      </class> <!-- testCases.TC003_CreateMT4AccountTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

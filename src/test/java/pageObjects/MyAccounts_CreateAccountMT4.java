@@ -25,7 +25,7 @@ public class MyAccounts_CreateAccountMT4 extends BasePage {
     @FindBy(xpath = "//input[@id='AccountName']") 
     private WebElement accountNameField;
 
-    @FindBy(xpath = "//span[@class='filter-option pull-left' and text()='USD']") 
+    @FindBy(xpath = "//span[@class='filter-option pull-left' and text()='AUD']") 
     private WebElement walletDropdown;
 
     @FindBy(xpath = "//div[@class='col-xl-6 col-md-12 col-sm-6']//ul[@class='dropdown-menu inner']//li//a") 

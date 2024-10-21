@@ -1,2 +1,192 @@
-2024-10-04 14:40:08 INFO  TC004_TransferFundsTest:48 - Logger initialized for testCases.TC004_TransferFundsTest
-2024-10-04 14:40:08 INFO  TC004_TransferFundsTest:52 - Faker instance initialized
+2024-10-21 23:20:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\Master.xml
+
+2024-10-21 23:20:11 INFO  TC003_CreateMT4AccountTest:48 - Logger initialized for testCases.TC003_CreateMT4AccountTest
+2024-10-21 23:20:11 INFO  TC003_CreateMT4AccountTest:52 - Faker instance initialized
+2024-10-21 23:20:19 INFO  TC003_CreateMT4AccountTest:79 - WebDriver initialized and application URL opened
+2024-10-21 23:20:20 INFO  TC003_CreateMT4AccountTest:29 - *** Starting TC003_CreateMT4AccountTest ***
+2024-10-21 23:20:20 INFO  TC003_CreateMT4AccountTest:100 - Entered username
+2024-10-21 23:20:20 INFO  TC003_CreateMT4AccountTest:103 - Entered password
+2024-10-21 23:20:21 INFO  TC003_CreateMT4AccountTest:106 - Clicked on Sign-In button
+2024-10-21 23:20:21 INFO  TC003_CreateMT4AccountTest:34 - Login successful.
+2024-10-21 23:20:27 INFO  TC003_CreateMT4AccountTest:38 - Clicked on My Accounts.
+2024-10-21 23:20:34 INFO  TC003_CreateMT4AccountTest:41 - Clicked on Create Account.
+2024-10-21 23:20:35 INFO  TC003_CreateMT4AccountTest:47 - Selected trading platform: MT4
+2024-10-21 23:20:35 INFO  TC003_CreateMT4AccountTest:52 - Entered account name: nikbt
+2024-10-21 23:21:05 ERROR TC003_CreateMT4AccountTest:82 - An error occurred while creating the MT4 account: 
+java.lang.RuntimeException: Action failed after 3 attempts: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='filter-option pull-left' and text()='USD']"}
+  (Session info: chrome=129.0.6668.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2d2ffc2d1124cf91d3e376f15210cd4, findElement {using=xpath, value=//span[@class='filter-option pull-left' and text()='USD']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.103, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58418}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58418/devtoo..., se:cdpVersion: 129.0.6668.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2d2ffc2d1124cf91d3e376f15210cd4
+	at pageObjects.BasePage.retryAction(BasePage.java:51) ~[test-classes/:?]
+	at pageObjects.BasePage.waitAndClick(BasePage.java:60) ~[test-classes/:?]
+	at pageObjects.MyAccounts_CreateAccountMT4.selectWalletOption(MyAccounts_CreateAccountMT4.java:70) ~[test-classes/:?]
+	at testCases.TC003_CreateMT4AccountTest.createMT4_Account(TC003_CreateMT4AccountTest.java:55) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-10-21 23:21:06 INFO  TC003_CreateMT4AccountTest:86 - WebDriver session ended after method execution
+2024-10-21 23:21:06 INFO  TC003_CreateMT4AccountTest:92 - Test class teardown completed
+2024-10-21 23:24:08 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\Master.xml
+
+2024-10-21 23:24:08 INFO  TC003_CreateMT4AccountTest:48 - Logger initialized for testCases.TC003_CreateMT4AccountTest
+2024-10-21 23:24:09 INFO  TC003_CreateMT4AccountTest:52 - Faker instance initialized
+2024-10-21 23:24:23 INFO  TC003_CreateMT4AccountTest:79 - WebDriver initialized and application URL opened
+2024-10-21 23:24:23 INFO  TC003_CreateMT4AccountTest:29 - *** Starting TC003_CreateMT4AccountTest ***
+2024-10-21 23:24:23 INFO  TC003_CreateMT4AccountTest:100 - Entered username
+2024-10-21 23:24:23 INFO  TC003_CreateMT4AccountTest:103 - Entered password
+2024-10-21 23:24:23 INFO  TC003_CreateMT4AccountTest:106 - Clicked on Sign-In button
+2024-10-21 23:24:23 INFO  TC003_CreateMT4AccountTest:34 - Login successful.
+2024-10-21 23:24:34 INFO  TC003_CreateMT4AccountTest:38 - Clicked on My Accounts.
+2024-10-21 23:24:37 INFO  TC003_CreateMT4AccountTest:41 - Clicked on Create Account.
+2024-10-21 23:24:38 INFO  TC003_CreateMT4AccountTest:47 - Selected trading platform: MT4
+2024-10-21 23:24:38 INFO  TC003_CreateMT4AccountTest:52 - Entered account name: sfcny
+2024-10-21 23:25:08 ERROR TC003_CreateMT4AccountTest:82 - An error occurred while creating the MT4 account: 
+java.lang.RuntimeException: Action failed after 3 attempts: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='filter-option pull-left' and text()='USD']"}
+  (Session info: chrome=129.0.6668.103)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a08c8d2c0dd3aa792e4c1559bb17a000, findElement {value=//span[@class='filter-option pull-left' and text()='USD'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.103, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58570}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58570/devtoo..., se:cdpVersion: 129.0.6668.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a08c8d2c0dd3aa792e4c1559bb17a000
+	at pageObjects.BasePage.retryAction(BasePage.java:51) ~[test-classes/:?]
+	at pageObjects.BasePage.waitAndClick(BasePage.java:60) ~[test-classes/:?]
+	at pageObjects.MyAccounts_CreateAccountMT4.selectWalletOption(MyAccounts_CreateAccountMT4.java:70) ~[test-classes/:?]
+	at testCases.TC003_CreateMT4AccountTest.createMT4_Account(TC003_CreateMT4AccountTest.java:55) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-10-21 23:25:09 INFO  TC003_CreateMT4AccountTest:86 - WebDriver session ended after method execution
+2024-10-21 23:25:09 INFO  TC003_CreateMT4AccountTest:92 - Test class teardown completed
+2024-10-21 23:26:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\Master.xml
+
+2024-10-21 23:26:30 INFO  TC003_CreateMT4AccountTest:48 - Logger initialized for testCases.TC003_CreateMT4AccountTest
+2024-10-21 23:26:30 INFO  TC003_CreateMT4AccountTest:52 - Faker instance initialized
+2024-10-21 23:26:37 INFO  TC003_CreateMT4AccountTest:79 - WebDriver initialized and application URL opened
+2024-10-21 23:26:37 INFO  TC003_CreateMT4AccountTest:29 - *** Starting TC003_CreateMT4AccountTest ***
+2024-10-21 23:26:37 INFO  TC003_CreateMT4AccountTest:100 - Entered username
+2024-10-21 23:26:37 INFO  TC003_CreateMT4AccountTest:103 - Entered password
+2024-10-21 23:26:38 INFO  TC003_CreateMT4AccountTest:106 - Clicked on Sign-In button
+2024-10-21 23:26:38 INFO  TC003_CreateMT4AccountTest:34 - Login successful.
+2024-10-21 23:26:41 INFO  TC003_CreateMT4AccountTest:38 - Clicked on My Accounts.
+2024-10-21 23:26:49 INFO  TC003_CreateMT4AccountTest:41 - Clicked on Create Account.
+2024-10-21 23:26:50 INFO  TC003_CreateMT4AccountTest:47 - Selected trading platform: MT4
+2024-10-21 23:26:50 INFO  TC003_CreateMT4AccountTest:52 - Entered account name: nqqkc
+2024-10-21 23:27:15 ERROR TC003_CreateMT4AccountTest:82 - An error occurred while creating the MT4 account: 
+java.lang.RuntimeException: Action failed after 3 attempts: Error communicating with the remote browser. It may have died.
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfc10a5ad9c9d66003d93ba1ec5a044d, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.103, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\ABDULS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58660}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58660/devtoo..., se:cdpVersion: 129.0.6668.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfc10a5ad9c9d66003d93ba1ec5a044d
+	at pageObjects.BasePage.retryAction(BasePage.java:51) ~[test-classes/:?]
+	at pageObjects.BasePage.waitAndClick(BasePage.java:60) ~[test-classes/:?]
+	at pageObjects.MyAccounts_CreateAccountMT4.selectWalletOption(MyAccounts_CreateAccountMT4.java:70) ~[test-classes/:?]
+	at testCases.TC003_CreateMT4AccountTest.createMT4_Account(TC003_CreateMT4AccountTest.java:55) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-10-21 23:27:15 INFO  TC003_CreateMT4AccountTest:92 - Test class teardown completed
+2024-10-21 23:29:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\AbdulSiyamwala\git\My Project\testNG\QA_CP_fynxt\Master.xml
+
+2024-10-21 23:29:30 INFO  TC003_CreateMT4AccountTest:48 - Logger initialized for testCases.TC003_CreateMT4AccountTest
+2024-10-21 23:29:30 INFO  TC003_CreateMT4AccountTest:52 - Faker instance initialized
+2024-10-21 23:29:38 INFO  TC003_CreateMT4AccountTest:79 - WebDriver initialized and application URL opened
+2024-10-21 23:29:38 INFO  TC003_CreateMT4AccountTest:29 - *** Starting TC003_CreateMT4AccountTest ***
+2024-10-21 23:29:39 INFO  TC003_CreateMT4AccountTest:100 - Entered username
+2024-10-21 23:29:39 INFO  TC003_CreateMT4AccountTest:103 - Entered password
+2024-10-21 23:29:39 INFO  TC003_CreateMT4AccountTest:106 - Clicked on Sign-In button
+2024-10-21 23:29:39 INFO  TC003_CreateMT4AccountTest:34 - Login successful.
+2024-10-21 23:29:45 INFO  TC003_CreateMT4AccountTest:38 - Clicked on My Accounts.
+2024-10-21 23:29:52 INFO  TC003_CreateMT4AccountTest:41 - Clicked on Create Account.
+2024-10-21 23:29:52 INFO  TC003_CreateMT4AccountTest:47 - Selected trading platform: MT4
+2024-10-21 23:29:52 INFO  TC003_CreateMT4AccountTest:52 - Entered account name: pthuo
+2024-10-21 23:29:53 INFO  TC003_CreateMT4AccountTest:56 - Selected wallet option: USD
+2024-10-21 23:29:54 INFO  TC003_CreateMT4AccountTest:60 - Set account balance to: 1000
+2024-10-21 23:29:54 INFO  TC003_CreateMT4AccountTest:64 - Clicked 'I Confirm' checkbox.
+2024-10-21 23:29:54 INFO  TC003_CreateMT4AccountTest:68 - Clicked on Create Account button.
+2024-10-21 23:30:01 INFO  TC003_CreateMT4AccountTest:72 - MT4 Account created with number: 1246011240
+2024-10-21 23:30:01 INFO  TC003_CreateMT4AccountTest:76 - Dismissed the account creation modal.
+2024-10-21 23:30:01 INFO  TC003_CreateMT4AccountTest:86 - *** Finished TC003_CreateMT4AccountTest ***
+2024-10-21 23:30:03 INFO  TC003_CreateMT4AccountTest:86 - WebDriver session ended after method execution
+2024-10-21 23:30:03 INFO  TC003_CreateMT4AccountTest:92 - Test class teardown completed

@@ -27,6 +27,9 @@ public class Navigation extends BasePage {
 
     @FindBy(xpath = "//span[normalize-space(text()) = 'Managed Accounts']")
     private WebElement managedAccountsMenu;
+    
+    @FindBy(xpath="(//div[@id='ManagedAccounts_menu_type_1']//ul[@class='nav']//a)[1]") 
+    private WebElement leaderboardSubMenu;
 
     @FindBy(xpath = "//body/aside[@id='sidebar']/div[@id='menu-accordion1']/ul[contains(@class,'navbar-nav')]/li[contains(@class,'nav-item dropdown-true dropdown-true-active')]/div[@id='ManagedAccounts_menu_type_1']/ul[contains(@class,'nav')]/li[3]/a[1]")
     private WebElement publishedStrategiesSubMenu;
@@ -54,8 +57,14 @@ public class Navigation extends BasePage {
     public void clickOnManagedAccountsMenu() {
         waitAndClick(managedAccountsMenu);
     }
-
+    
+    public void clickOnLeaderboardSubMenu() {
+        waitAndClick(leaderboardSubMenu);
+    }
+    
     public void clickOnPublishedStrategiesSubMenu() {
         waitAndClick(publishedStrategiesSubMenu);
     }
+
+    
 }

@@ -10,19 +10,14 @@
   
     <classes>
 
-<!-- <class name="testCases.TC001_LoginTests"/>
-        
-     <class name="testCases.TC002_AccountRegistrationTest"/>
+<class name="testCases.TC001_LoginTests"/>
+    <class name="testCases.TC002_AccountRegistrationTest"/>
     <class name="testCases.TC003_CreateMT4AccountTest"/>
+     <class name="testCases.TC004_TransferFundsTest"/>
     <class name="testCases.TC005_DepositFundsUSDTest"/>
-    <class name="testCases.TC015_CreatePublicStrategy"/>	-->
-    <class name="testCases.TC004_TransferFundsTest"/>
+     <class name="testCases.TC006_LeaderboardStrategyTest"/>
+    <class name="testCases.TC015_CreatePublicStrategy"/>
     
- 
-    
-     
-    
-    
-    </classes>
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -15,7 +15,7 @@ public class TC002_AccountRegistrationTest extends BaseClass {
     public void account_registration() throws InterruptedException {
         logger.info("*** Starting TC002_AccountRegistrationTest ***");
         try {
-            Faker faker = new Faker(); // Initialize Faker for random data generation
+            Faker faker = new Faker(); 
             
             SigninPage signinPage = new SigninPage(driver);
             signinPage.clickSignUp();
